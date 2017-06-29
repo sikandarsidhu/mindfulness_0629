@@ -15,15 +15,32 @@ namespace VRStandardAssets.Examples
         AudioSource _audioSource;
 
         bool _hasBeenPlayedOnce = false;
+        bool _buttonIsBeingPressed = false;
+        [SerializeField] float _buttonPressDuration = 3.0f;
+
+        Timer _buttonPressTimer;
 
         private void Awake()
         {
             _audioSource = GetComponent<AudioSource>();
+            _buttonPressTimer = new Timer(_buttonPressDuration);
         }
 
         private void Update()
         {
+            if (_hasBeenPlayedOnce)
+            {
+                if (!_audioSource.isPlaying)
+                {
+                    _mGazeSwiitchSceneScript.SetIsReadyToTrue();
+                }
+            }
 
+            if (_buttonIsBeingPressed && _buttonPressTimer.IsOffCooldown && !_hasBeenPlayedOnce)
+            {
+                _audioSource.Play();
+                _hasBeenPlayedOnce = true;
+            }
         }
 
 
@@ -51,9 +68,8 @@ namespace VRStandardAssets.Examples
             Debug.Log("Show over state");
             if (!_hasBeenPlayedOnce && !_panoVoiceOverAudioSource.isPlaying)
             {
-                _audioSource.Play();
-                _hasBeenPlayedOnce = true;
-                _mGazeSwiitchSceneScript.SetIsReadyToTrue();
+                _buttonIsBeingPressed = true;
+                _buttonPressTimer.Reset();
             }
         }
 
@@ -62,7 +78,7 @@ namespace VRStandardAssets.Examples
         private void HandleOut()
         {
             Debug.Log("Show out state");
-    
+            _buttonIsBeingPressed = false;
 
         }
 

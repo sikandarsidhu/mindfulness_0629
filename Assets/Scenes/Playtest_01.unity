@@ -7818,7 +7818,7 @@ MonoBehaviour:
   toScene: Forest
   duration: 5
   HoverDuration: 10
-  _delayBeforeEnable: 17
+  _delayBeforeEnable: 1
 --- !u!114 &2060074283
 MonoBehaviour:
   m_ObjectHideFlags: 0

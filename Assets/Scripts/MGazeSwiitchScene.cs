@@ -10,21 +10,14 @@ public class MGazeSwiitchScene : MonoBehaviour {
 	[SerializeField] private string toScene;
 	[SerializeField] private float duration = 2f;
 	[SerializeField] float HoverDuration = 3f;
-    [SerializeField] float _delayBeforeEnable = 17.0f;
 
 	bool _isCounting = false;
     bool _isReadyToStart = false;
 	float _count;
-    Timer _delayTimer;
-
-    private void Start()
-    {
-        _delayTimer = new Timer(_delayBeforeEnable);
-    }
 
     private void Update()
 	{
-        if (_isCounting && _isReadyToStart && _delayTimer.IsOffCooldown)
+        if (_isCounting && _isReadyToStart)
 		{
 //			Debug.Log ("Count " + _count);
 			float temCount = _count;
@@ -35,13 +28,13 @@ public class MGazeSwiitchScene : MonoBehaviour {
 		}
 	}
 
-	private void OnEnable()
+	void OnEnable()
 	{
 		m_InteractiveItem.OnOver += HandleOver;
 		m_InteractiveItem.OnOut += HandleOut;
 	}
 
-	private void OnDisable()
+	void OnDisable()
 	{
 		m_InteractiveItem.OnOver -= HandleOver;
 		m_InteractiveItem.OnOut -= HandleOut;
@@ -70,6 +63,5 @@ public class MGazeSwiitchScene : MonoBehaviour {
     public void SetIsReadyToTrue()
     {
         _isReadyToStart = true;
-        _delayTimer.Reset();
     }
 }
