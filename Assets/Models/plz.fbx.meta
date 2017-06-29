@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 89d06e3e145114044ab98b184b8fdd9a
+timeCreated: 1498063420
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: L_claw
+    100002: L_eye
+    100004: L_stalk
+    100006: //RootNode
+    100008: R_claw
+    100010: R_eye
+    100012: R_stalk
+    100014: rock
+    100016: rock_006:L_claw_joint
+    100018: rock_006:L_elbow_joint
+    100020: rock_006:L_top_joint
+    100022: rock_006:L_wrist_joint
+    100024: rock_006:R_claw_joint
+    100026: rock_006:R_elbow_joint
+    100028: rock_006:R_top_joint1
+    100030: rock_006:R_wrist_joint
+    400000: L_claw
+    400002: L_eye
+    400004: L_stalk
+    400006: //RootNode
+    400008: R_claw
+    400010: R_eye
+    400012: R_stalk
+    400014: rock
+    400016: rock_006:L_claw_joint
+    400018: rock_006:L_elbow_joint
+    400020: rock_006:L_top_joint
+    400022: rock_006:L_wrist_joint
+    400024: rock_006:R_claw_joint
+    400026: rock_006:R_elbow_joint
+    400028: rock_006:R_top_joint1
+    400030: rock_006:R_wrist_joint
+    2300000: rock
+    3300000: rock
+    4300000: rock
+    4300002: R_claw
+    4300004: L_claw
+    4300006: R_stalk
+    4300008: R_eye
+    4300010: L_stalk
+    4300012: L_eye
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: L_claw
+    13700002: L_eye
+    13700004: L_stalk
+    13700006: R_claw
+    13700008: R_eye
+    13700010: R_stalk
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 66
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_stalk
+        weight: 1
+      - path: L_stalk/L_eye
+        weight: 1
+      - path: R_stalk
+        weight: 1
+      - path: R_stalk/R_eye
+        weight: 1
+      - path: rock
+        weight: 1
+      - path: rock/L_claw
+        weight: 1
+      - path: rock/R_claw
+        weight: 1
+      - path: rock_006:L_top_joint
+        weight: 1
+      - path: rock_006:L_top_joint/rock_006:L_elbow_joint
+        weight: 1
+      - path: rock_006:L_top_joint/rock_006:L_elbow_joint/rock_006:L_wrist_joint
+        weight: 1
+      - path: rock_006:L_top_joint/rock_006:L_elbow_joint/rock_006:L_wrist_joint/rock_006:L_claw_joint
+        weight: 1
+      - path: rock_006:R_top_joint1
+        weight: 1
+      - path: rock_006:R_top_joint1/rock_006:R_elbow_joint
+        weight: 1
+      - path: rock_006:R_top_joint1/rock_006:R_elbow_joint/rock_006:R_wrist_joint
+        weight: 1
+      - path: rock_006:R_top_joint1/rock_006:R_elbow_joint/rock_006:R_wrist_joint/rock_006:R_claw_joint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
