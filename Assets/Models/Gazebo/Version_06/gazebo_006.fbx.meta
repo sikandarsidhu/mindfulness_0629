@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: a18d58d35fc1fd349accbc7ed9740627
+timeCreated: 1498583265
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: book1
+    100002: book2
+    100004: book3
+    100006: book4
+    100008: cabinet
+    100010: cabinet_group
+    100012: cabinet_handle1
+    100014: cabinet_handle1_poly
+    100016: cabinet_handle2_poly
+    100018: cabinet_handle3_poly
+    100020: cabinet_handle4_poly
+    100022: cabinet_handle5_poly
+    100024: cabinet_handleandnut1
+    100026: cabinet_handleandnut2
+    100028: cabinet_handleandnut3
+    100030: cabinet_handleandnut4
+    100032: cabinet_handleandnut5
+    100034: cabinet_handleandnut6
+    100036: cabinet_nut1
+    100038: cabinet_nut1 1
+    100040: cabinet_nut1 2
+    100042: cabinet_nut1 3
+    100044: cabinet_nut1 4
+    100046: cabinet_nut1 5
+    100048: cabinet_nut2
+    100050: cabinet_nut2 1
+    100052: cabinet_nut2 2
+    100054: cabinet_nut2 3
+    100056: cabinet_nut2 4
+    100058: cabinet_nut2 5
+    100060: ceiling
+    100062: column1
+    100064: column2
+    100066: column3
+    100068: column5
+    100070: column_decor
+    100072: column_decor1
+    100074: cushion1
+    100076: cushion2
+    100078: cushion3
+    100080: cushion_button
+    100082: cushion_button 1
+    100084: cushion_button 2
+    100086: cushion_pillow
+    100088: cushion_pillow 1
+    100090: cushion_pillow 2
+    100092: cushion_pillow1
+    100094: floor
+    100096: floor1
+    100098: flower4
+    100100: //RootNode
+    100102: lantern
+    100104: lantern1
+    100106: lantern1_handle_poly
+    100108: lantern_body
+    100110: lantern_body 1
+    100112: lantern_candle
+    100114: lantern_candle 1
+    100116: lantern_handle_poly
+    100118: lantern_ring
+    100120: lantern_ring 1
+    100122: lantern_wall
+    100124: lantern_wall 1
+    100126: Mesh
+    100128: nurbsToPoly1
+    100130: pCube26
+    100132: pCube27
+    100134: pCube28
+    100136: pCylinder1
+    100138: pCylinder2
+    100140: pCylinder3
+    100142: pCylinder4
+    100144: pCylinder4 1
+    100146: pCylinder5
+    100148: PrimroseP1:Mesh
+    100150: rug
+    100152: rug2
+    100154: table
+    100156: table_top
+    100158: tableleg1
+    100160: tableleg2
+    100162: tableleg3
+    100164: transform1
+    100166: vase1
+    100168: vase2
+    100170: vase3
+    100172: vegetable201:Mesh
+    100174: wall
+    100176: yucca_maya8_5:Yucca
+    400000: book1
+    400002: book2
+    400004: book3
+    400006: book4
+    400008: cabinet
+    400010: cabinet_group
+    400012: cabinet_handle1
+    400014: cabinet_handle1_poly
+    400016: cabinet_handle2_poly
+    400018: cabinet_handle3_poly
+    400020: cabinet_handle4_poly
+    400022: cabinet_handle5_poly
+    400024: cabinet_handleandnut1
+    400026: cabinet_handleandnut2
+    400028: cabinet_handleandnut3
+    400030: cabinet_handleandnut4
+    400032: cabinet_handleandnut5
+    400034: cabinet_handleandnut6
+    400036: cabinet_nut1
+    400038: cabinet_nut1 1
+    400040: cabinet_nut1 2
+    400042: cabinet_nut1 3
+    400044: cabinet_nut1 4
+    400046: cabinet_nut1 5
+    400048: cabinet_nut2
+    400050: cabinet_nut2 1
+    400052: cabinet_nut2 2
+    400054: cabinet_nut2 3
+    400056: cabinet_nut2 4
+    400058: cabinet_nut2 5
+    400060: ceiling
+    400062: column1
+    400064: column2
+    400066: column3
+    400068: column5
+    400070: column_decor
+    400072: column_decor1
+    400074: cushion1
+    400076: cushion2
+    400078: cushion3
+    400080: cushion_button
+    400082: cushion_button 1
+    400084: cushion_button 2
+    400086: cushion_pillow
+    400088: cushion_pillow 1
+    400090: cushion_pillow 2
+    400092: cushion_pillow1
+    400094: floor
+    400096: floor1
+    400098: flower4
+    400100: //RootNode
+    400102: lantern
+    400104: lantern1
+    400106: lantern1_handle_poly
+    400108: lantern_body
+    400110: lantern_body 1
+    400112: lantern_candle
+    400114: lantern_candle 1
+    400116: lantern_handle_poly
+    400118: lantern_ring
+    400120: lantern_ring 1
+    400122: lantern_wall
+    400124: lantern_wall 1
+    400126: Mesh
+    400128: nurbsToPoly1
+    400130: pCube26
+    400132: pCube27
+    400134: pCube28
+    400136: pCylinder1
+    400138: pCylinder2
+    400140: pCylinder3
+    400142: pCylinder4
+    400144: pCylinder4 1
+    400146: pCylinder5
+    400148: PrimroseP1:Mesh
+    400150: rug
+    400152: rug2
+    400154: table
+    400156: table_top
+    400158: tableleg1
+    400160: tableleg2
+    400162: tableleg3
+    400164: transform1
+    400166: vase1
+    400168: vase2
+    400170: vase3
+    400172: vegetable201:Mesh
+    400174: wall
+    400176: yucca_maya8_5:Yucca
+    2300000: book1
+    2300002: book2
+    2300004: book3
+    2300006: book4
+    2300008: cabinet
+    2300010: cabinet_handle1_poly
+    2300012: cabinet_handle2_poly
+    2300014: cabinet_handle3_poly
+    2300016: cabinet_handle4_poly
+    2300018: cabinet_handle5_poly
+    2300020: cabinet_nut1
+    2300022: cabinet_nut1 1
+    2300024: cabinet_nut1 2
+    2300026: cabinet_nut1 3
+    2300028: cabinet_nut1 4
+    2300030: cabinet_nut1 5
+    2300032: cabinet_nut2
+    2300034: cabinet_nut2 1
+    2300036: cabinet_nut2 2
+    2300038: cabinet_nut2 3
+    2300040: cabinet_nut2 4
+    2300042: cabinet_nut2 5
+    2300044: ceiling
+    2300046: column2
+    2300048: column5
+    2300050: column_decor
+    2300052: column_decor1
+    2300054: cushion_button
+    2300056: cushion_button 1
+    2300058: cushion_button 2
+    2300060: cushion_pillow
+    2300062: cushion_pillow 1
+    2300064: cushion_pillow 2
+    2300066: cushion_pillow1
+    2300068: floor
+    2300070: flower4
+    2300072: lantern1_handle_poly
+    2300074: lantern_body
+    2300076: lantern_body 1
+    2300078: lantern_candle
+    2300080: lantern_candle 1
+    2300082: lantern_handle_poly
+    2300084: lantern_ring
+    2300086: lantern_ring 1
+    2300088: lantern_wall
+    2300090: lantern_wall 1
+    2300092: Mesh
+    2300094: nurbsToPoly1
+    2300096: pCube26
+    2300098: pCube27
+    2300100: pCube28
+    2300102: pCylinder1
+    2300104: pCylinder2
+    2300106: pCylinder3
+    2300108: pCylinder4
+    2300110: pCylinder4 1
+    2300112: pCylinder5
+    2300114: PrimroseP1:Mesh
+    2300116: rug
+    2300118: rug2
+    2300120: tableleg1
+    2300122: tableleg2
+    2300124: tableleg3
+    2300126: vase1
+    2300128: vase2
+    2300130: vase3
+    2300132: vegetable201:Mesh
+    2300134: wall
+    2300136: yucca_maya8_5:Yucca
+    3300000: book1
+    3300002: book2
+    3300004: book3
+    3300006: book4
+    3300008: cabinet
+    3300010: cabinet_handle1_poly
+    3300012: cabinet_handle2_poly
+    3300014: cabinet_handle3_poly
+    3300016: cabinet_handle4_poly
+    3300018: cabinet_handle5_poly
+    3300020: cabinet_nut1
+    3300022: cabinet_nut1 1
+    3300024: cabinet_nut1 2
+    3300026: cabinet_nut1 3
+    3300028: cabinet_nut1 4
+    3300030: cabinet_nut1 5
+    3300032: cabinet_nut2
+    3300034: cabinet_nut2 1
+    3300036: cabinet_nut2 2
+    3300038: cabinet_nut2 3
+    3300040: cabinet_nut2 4
+    3300042: cabinet_nut2 5
+    3300044: ceiling
+    3300046: column2
+    3300048: column5
+    3300050: column_decor
+    3300052: column_decor1
+    3300054: cushion_button
+    3300056: cushion_button 1
+    3300058: cushion_button 2
+    3300060: cushion_pillow
+    3300062: cushion_pillow 1
+    3300064: cushion_pillow 2
+    3300066: cushion_pillow1
+    3300068: floor
+    3300070: flower4
+    3300072: lantern1_handle_poly
+    3300074: lantern_body
+    3300076: lantern_body 1
+    3300078: lantern_candle
+    3300080: lantern_candle 1
+    3300082: lantern_handle_poly
+    3300084: lantern_ring
+    3300086: lantern_ring 1
+    3300088: lantern_wall
+    3300090: lantern_wall 1
+    3300092: Mesh
+    3300094: nurbsToPoly1
+    3300096: pCube26
+    3300098: pCube27
+    3300100: pCube28
+    3300102: pCylinder1
+    3300104: pCylinder2
+    3300106: pCylinder3
+    3300108: pCylinder4
+    3300110: pCylinder4 1
+    3300112: pCylinder5
+    3300114: PrimroseP1:Mesh
+    3300116: rug
+    3300118: rug2
+    3300120: tableleg1
+    3300122: tableleg2
+    3300124: tableleg3
+    3300126: vase1
+    3300128: vase2
+    3300130: vase3
+    3300132: vegetable201:Mesh
+    3300134: wall
+    3300136: yucca_maya8_5:Yucca
+    4300000: cushion_pillow
+    4300002: cushion_button
+    4300004: cushion_pillow
+    4300006: cushion_button
+    4300008: cushion_pillow1
+    4300010: tableleg3
+    4300012: tableleg1
+    4300014: tableleg2
+    4300016: pCylinder1
+    4300018: pCylinder2
+    4300020: pCube26
+    4300022: pCube27
+    4300024: pCube28
+    4300026: lantern_ring
+    4300028: lantern_body
+    4300030: lantern_wall
+    4300032: lantern_candle
+    4300034: lantern_handle_poly
+    4300036: column_decor
+    4300038: column5
+    4300040: column_decor1
+    4300042: column2
+    4300044: lantern_ring
+    4300046: lantern_body
+    4300048: lantern_wall
+    4300050: lantern_candle
+    4300052: lantern1_handle_poly
+    4300054: cushion_pillow
+    4300056: cushion_button
+    4300058: rug
+    4300060: ceiling
+    4300062: vase1
+    4300064: yucca_maya8_5:Yucca
+    4300066: vase2
+    4300068: cabinet_nut2
+    4300070: cabinet_nut1
+    4300072: cabinet_nut2
+    4300074: cabinet_nut1
+    4300076: cabinet_handle4_poly
+    4300078: cabinet_nut2
+    4300080: cabinet_nut1
+    4300082: cabinet_handle5_poly
+    4300084: cabinet_nut2
+    4300086: cabinet_nut1
+    4300088: cabinet_handle3_poly
+    4300090: cabinet_nut2
+    4300092: cabinet_nut1
+    4300094: cabinet_handle1_poly
+    4300096: cabinet_nut2
+    4300098: cabinet_nut1
+    4300100: cabinet_handle2_poly
+    4300102: cabinet
+    4300104: nurbsToPoly1
+    4300106: wall
+    4300108: floor
+    4300110: rug2
+    4300112: pCylinder3
+    4300114: pCylinder4
+    4300116: pCylinder5
+    4300118: pCylinder4
+    4300120: PrimroseP1:Mesh
+    4300122: Mesh
+    4300124: book3
+    4300126: book4
+    4300128: book1
+    4300130: book2
+    4300132: vase3
+    4300134: vegetable201:Mesh
+    4300136: flower4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

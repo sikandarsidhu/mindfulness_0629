@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 43f571498b4f9104fbe100c1e1c10e6f
+timeCreated: 1498177511
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cabinet
+    100002: cabinet_group
+    100004: cabinet_handle1
+    100006: cabinet_handle1 1
+    100008: cabinet_handle1 2
+    100010: cabinet_handle1 3
+    100012: cabinet_handle1 4
+    100014: cabinet_handle1 5
+    100016: cabinet_handleandnut1
+    100018: cabinet_handleandnut2
+    100020: cabinet_handleandnut3
+    100022: cabinet_handleandnut4
+    100024: cabinet_handleandnut5
+    100026: cabinet_handleandnut6
+    100028: cabinet_nut1
+    100030: cabinet_nut1 1
+    100032: cabinet_nut1 2
+    100034: cabinet_nut1 3
+    100036: cabinet_nut1 4
+    100038: cabinet_nut1 5
+    100040: cabinet_nut2
+    100042: cabinet_nut2 1
+    100044: cabinet_nut2 2
+    100046: cabinet_nut2 3
+    100048: cabinet_nut2 4
+    100050: cabinet_nut2 5
+    100052: ceiling
+    100054: column1
+    100056: column2
+    100058: column2 1
+    100060: column3
+    100062: column4
+    100064: column5
+    100066: column_decor
+    100068: column_decor 1
+    100070: column_decor1
+    100072: cushion1
+    100074: cushion2
+    100076: cushion3
+    100078: cushion_button
+    100080: cushion_button 1
+    100082: cushion_button 2
+    100084: cushion_pillow
+    100086: cushion_pillow 1
+    100088: cushion_pillow 2
+    100090: floor
+    100092: //RootNode
+    100094: lantern
+    100096: lantern1
+    100098: lantern_body
+    100100: lantern_body 1
+    100102: lantern_candle
+    100104: lantern_candle 1
+    100106: lantern_handle
+    100108: lantern_handle 1
+    100110: lantern_ring
+    100112: lantern_ring 1
+    100114: lantern_wall
+    100116: lantern_wall 1
+    100118: nurbsToPoly1
+    100120: pCube26
+    100122: pCube27
+    100124: pCube28
+    100126: pCylinder1
+    100128: pCylinder2
+    100130: rug
+    100132: table
+    100134: table_top
+    100136: tableleg1
+    100138: tableleg2
+    100140: tableleg3
+    100142: vase1
+    100144: vase2
+    400000: cabinet
+    400002: cabinet_group
+    400004: cabinet_handle1
+    400006: cabinet_handle1 1
+    400008: cabinet_handle1 2
+    400010: cabinet_handle1 3
+    400012: cabinet_handle1 4
+    400014: cabinet_handle1 5
+    400016: cabinet_handleandnut1
+    400018: cabinet_handleandnut2
+    400020: cabinet_handleandnut3
+    400022: cabinet_handleandnut4
+    400024: cabinet_handleandnut5
+    400026: cabinet_handleandnut6
+    400028: cabinet_nut1
+    400030: cabinet_nut1 1
+    400032: cabinet_nut1 2
+    400034: cabinet_nut1 3
+    400036: cabinet_nut1 4
+    400038: cabinet_nut1 5
+    400040: cabinet_nut2
+    400042: cabinet_nut2 1
+    400044: cabinet_nut2 2
+    400046: cabinet_nut2 3
+    400048: cabinet_nut2 4
+    400050: cabinet_nut2 5
+    400052: ceiling
+    400054: column1
+    400056: column2
+    400058: column2 1
+    400060: column3
+    400062: column4
+    400064: column5
+    400066: column_decor
+    400068: column_decor 1
+    400070: column_decor1
+    400072: cushion1
+    400074: cushion2
+    400076: cushion3
+    400078: cushion_button
+    400080: cushion_button 1
+    400082: cushion_button 2
+    400084: cushion_pillow
+    400086: cushion_pillow 1
+    400088: cushion_pillow 2
+    400090: floor
+    400092: //RootNode
+    400094: lantern
+    400096: lantern1
+    400098: lantern_body
+    400100: lantern_body 1
+    400102: lantern_candle
+    400104: lantern_candle 1
+    400106: lantern_handle
+    400108: lantern_handle 1
+    400110: lantern_ring
+    400112: lantern_ring 1
+    400114: lantern_wall
+    400116: lantern_wall 1
+    400118: nurbsToPoly1
+    400120: pCube26
+    400122: pCube27
+    400124: pCube28
+    400126: pCylinder1
+    400128: pCylinder2
+    400130: rug
+    400132: table
+    400134: table_top
+    400136: tableleg1
+    400138: tableleg2
+    400140: tableleg3
+    400142: vase1
+    400144: vase2
+    2300000: cabinet
+    2300002: cabinet_nut1
+    2300004: cabinet_nut1 1
+    2300006: cabinet_nut1 2
+    2300008: cabinet_nut1 3
+    2300010: cabinet_nut1 4
+    2300012: cabinet_nut1 5
+    2300014: cabinet_nut2
+    2300016: cabinet_nut2 1
+    2300018: cabinet_nut2 2
+    2300020: cabinet_nut2 3
+    2300022: cabinet_nut2 4
+    2300024: cabinet_nut2 5
+    2300026: ceiling
+    2300028: column2 1
+    2300030: column4
+    2300032: column5
+    2300034: column_decor
+    2300036: column_decor 1
+    2300038: column_decor1
+    2300040: cushion_button
+    2300042: cushion_button 1
+    2300044: cushion_button 2
+    2300046: cushion_pillow
+    2300048: cushion_pillow 1
+    2300050: cushion_pillow 2
+    2300052: floor
+    2300054: lantern_body
+    2300056: lantern_body 1
+    2300058: lantern_candle
+    2300060: lantern_candle 1
+    2300062: lantern_ring
+    2300064: lantern_ring 1
+    2300066: lantern_wall
+    2300068: lantern_wall 1
+    2300070: nurbsToPoly1
+    2300072: pCube26
+    2300074: pCube27
+    2300076: pCube28
+    2300078: pCylinder1
+    2300080: pCylinder2
+    2300082: rug
+    2300084: tableleg1
+    2300086: tableleg2
+    2300088: tableleg3
+    2300090: vase1
+    2300092: vase2
+    3300000: cabinet
+    3300002: cabinet_nut1
+    3300004: cabinet_nut1 1
+    3300006: cabinet_nut1 2
+    3300008: cabinet_nut1 3
+    3300010: cabinet_nut1 4
+    3300012: cabinet_nut1 5
+    3300014: cabinet_nut2
+    3300016: cabinet_nut2 1
+    3300018: cabinet_nut2 2
+    3300020: cabinet_nut2 3
+    3300022: cabinet_nut2 4
+    3300024: cabinet_nut2 5
+    3300026: ceiling
+    3300028: column2 1
+    3300030: column4
+    3300032: column5
+    3300034: column_decor
+    3300036: column_decor 1
+    3300038: column_decor1
+    3300040: cushion_button
+    3300042: cushion_button 1
+    3300044: cushion_button 2
+    3300046: cushion_pillow
+    3300048: cushion_pillow 1
+    3300050: cushion_pillow 2
+    3300052: floor
+    3300054: lantern_body
+    3300056: lantern_body 1
+    3300058: lantern_candle
+    3300060: lantern_candle 1
+    3300062: lantern_ring
+    3300064: lantern_ring 1
+    3300066: lantern_wall
+    3300068: lantern_wall 1
+    3300070: nurbsToPoly1
+    3300072: pCube26
+    3300074: pCube27
+    3300076: pCube28
+    3300078: pCylinder1
+    3300080: pCylinder2
+    3300082: rug
+    3300084: tableleg1
+    3300086: tableleg2
+    3300088: tableleg3
+    3300090: vase1
+    3300092: vase2
+    4300000: cushion_pillow
+    4300002: cushion_button
+    4300004: cushion_pillow
+    4300006: cushion_button
+    4300008: tableleg3
+    4300010: tableleg1
+    4300012: tableleg2
+    4300014: pCylinder1
+    4300016: pCylinder2
+    4300018: pCube26
+    4300020: pCube27
+    4300022: pCube28
+    4300024: lantern_ring
+    4300026: lantern_body
+    4300028: lantern_wall
+    4300030: lantern_candle
+    4300032: column_decor
+    4300034: column5
+    4300036: column_decor
+    4300038: column4
+    4300040: column_decor1
+    4300042: column2
+    4300044: lantern_ring
+    4300046: lantern_body
+    4300048: lantern_wall
+    4300050: lantern_candle
+    4300052: cushion_pillow
+    4300054: cushion_button
+    4300056: floor
+    4300058: rug
+    4300060: ceiling
+    4300062: vase1
+    4300064: vase2
+    4300066: cabinet_nut2
+    4300068: cabinet_nut1
+    4300070: cabinet_nut2
+    4300072: cabinet_nut1
+    4300074: cabinet_nut2
+    4300076: cabinet_nut1
+    4300078: cabinet_nut2
+    4300080: cabinet_nut1
+    4300082: cabinet_nut2
+    4300084: cabinet_nut1
+    4300086: cabinet_nut2
+    4300088: cabinet_nut1
+    4300090: cabinet
+    4300092: nurbsToPoly1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
