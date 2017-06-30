@@ -10,7 +10,6 @@ namespace VRStandardAssets.Examples
     {
         [SerializeField] private VRInteractiveItem m_InteractiveItem;
         [SerializeField] AudioSource _panoVoiceOverAudioSource;
-        [SerializeField] MGazeSwiitchScene _mGazeSwiitchSceneScript;
 
         AudioSource _audioSource;
 
@@ -18,7 +17,10 @@ namespace VRStandardAssets.Examples
         bool _buttonIsBeingPressed = false;
         [SerializeField] float _buttonPressDuration = 3.0f;
 
+        [SerializeField] float duration = 2f;
+
         Timer _buttonPressTimer;
+        bool _triggeredNextScene = false;
 
         private void Awake()
         {
@@ -30,9 +32,11 @@ namespace VRStandardAssets.Examples
         {
             if (_hasBeenPlayedOnce)
             {
-                if (!_audioSource.isPlaying)
+                if (!_audioSource.isPlaying && !_triggeredNextScene)
                 {
-                    _mGazeSwiitchSceneScript.SetIsReadyToTrue();
+                   // _mGazeSwiitchSceneScript.SetIsReadyToTrue();
+                    MSceneManager.Instance.SwitchScene(PanoramaHandler._currentPanoramaType.ToString(), duration);
+                    _triggeredNextScene = true;
                 }
             }
 
@@ -66,8 +70,9 @@ namespace VRStandardAssets.Examples
         private void HandleOver()
         {
             Debug.Log("Show over state");
-            if (!_hasBeenPlayedOnce && !_panoVoiceOverAudioSource.isPlaying)
+            if (!_hasBeenPlayedOnce)
             {
+                _panoVoiceOverAudioSource.Stop();
                 _buttonIsBeingPressed = true;
                 _buttonPressTimer.Reset();
             }

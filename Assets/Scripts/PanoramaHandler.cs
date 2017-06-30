@@ -51,24 +51,36 @@ public class PanoramaHandler : MonoBehaviour {
     VideoPlayer _panoramaPlayer;
 	[SerializeField] AudioSource _audioPlayer;
 	[SerializeField] AudioSource _voiceOverPlayer;
-	// volume is between
+    // volume is between
+
+    //Global Definition of Currently Selected Panorama
+    public static PanoramaType _currentPanoramaType = PanoramaType.Null;
 
     [SerializeField] PanoramaData[] _panoramaData;
 
-	// Use this for initialization
-	void Start () {
+    [SerializeField] GameObject startButton;
+
+    // Use this for initialization
+    void Start () {
         _panoramaPlayer = GetComponent<VideoPlayer>();
-       
-	
-	}
+
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
 	}
 
+
+   
+
     public void ChangePanorama(PanoramaType _panoramaType)
     {
+        //Set current panorama to public static
+        _currentPanoramaType = _panoramaType;
+
         _panoramaPlayer.Stop();
         transform.localScale = _panoramaData[(int)_panoramaType].panoScale;
         transform.localRotation = Quaternion.Euler(_panoramaData[(int)_panoramaType].panoRotation);
@@ -83,5 +95,14 @@ public class PanoramaHandler : MonoBehaviour {
 		_voiceOverPlayer.clip = _panoramaData [(int)_panoramaType].voiceOverClip;
 		_voiceOverPlayer.Play ();
 		_audioPlayer.volume = _panoramaData [(int)_panoramaType].audioSourceVolume;
+
+
+
+        if (!startButton.activeSelf)
+        {
+            startButton.SetActive(true);
+
+
+        }
     }
 }

@@ -7,7 +7,6 @@ public class MGazeSwiitchScene : MonoBehaviour {
     //Atwood made the typo, blame him
 	[SerializeField] private VRInteractiveItem m_InteractiveItem;
 
-	[SerializeField] private string toScene;
 	[SerializeField] private float duration = 2f;
 	[SerializeField] float HoverDuration = 3f;
 
@@ -19,7 +18,6 @@ public class MGazeSwiitchScene : MonoBehaviour {
 	{
         if (_isCounting && _isReadyToStart)
 		{
-//			Debug.Log ("Count " + _count);
 			float temCount = _count;
 			_count += Time.deltaTime;
 			if( ( temCount - HoverDuration ) * ( _count - HoverDuration) < 0 ){
@@ -57,7 +55,7 @@ public class MGazeSwiitchScene : MonoBehaviour {
 
 	void SwitchScene()
 	{
-		MSceneManager.Instance.SwitchScene (toScene, duration);
+		MSceneManager.Instance.SwitchScene (PanoramaHandler._currentPanoramaType.ToString(), duration);
 	}
 
     public void SetIsReadyToTrue()

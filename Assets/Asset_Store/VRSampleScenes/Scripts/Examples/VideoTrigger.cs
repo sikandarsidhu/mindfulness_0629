@@ -45,7 +45,7 @@ namespace VRStandardAssets.Examples
 
         void ChangePanorama()
         {
-
+            
         }
 
 
