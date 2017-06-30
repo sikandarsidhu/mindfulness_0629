@@ -11,6 +11,7 @@ namespace VRStandardAssets.Examples
         [SerializeField] private VRInteractiveItem m_InteractiveItem;
         [SerializeField] VideoPlayer _videoPlayer;
         [SerializeField] MovieScreen _movieScreenScript;
+		[SerializeField] AudioSource _audioSource;
 
         [SerializeField] PanoramaHandler _panoramaHandlerScript;
         [SerializeField] PanoramaType _panoramaType;
@@ -77,6 +78,7 @@ namespace VRStandardAssets.Examples
                 _isCounting = true;
                 _count = 0.0f;
                 _Renderer.material = _hoverInMaterial;
+				_audioSource.Play();
 
             }
         }
@@ -90,6 +92,7 @@ namespace VRStandardAssets.Examples
             _videoPlayer.Stop();
             _movieScreenScript.InitializeVideo();
             _Renderer.material = _hoverOutMaterial;
+			_audioSource.Stop();
 
         }
 
@@ -98,6 +101,7 @@ namespace VRStandardAssets.Examples
         private void HandleClick()
         {
             Debug.Log("Show click state");
+			_audioSource.Play();
            
         }
 
