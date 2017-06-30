@@ -6052,7 +6052,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: da7d6e6869bbe1a4d8c7f643a687cad7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 300c0511eae6bff41b89f410124587c2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6735,7 +6735,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 483f3423bbb62a644850bb4536d9a539, type: 3}
     audioClip: {fileID: 8300000, guid: d9823b9c70357e04b94d663e2368b3ea, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 098412a7a0888e247848c4c96c649704, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.75
   - whichPanorama: 3
     panoPosition: {x: -36, y: 2, z: 55}
