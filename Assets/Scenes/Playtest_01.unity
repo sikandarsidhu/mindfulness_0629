@@ -3786,7 +3786,7 @@ GameObject:
   - component: {fileID: 1078293269}
   m_Layer: 0
   m_Name: Point light
-  m_TagString: Untagged
+  m_TagString: Lights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7198,7 +7198,7 @@ GameObject:
   - component: {fileID: 1757433687}
   m_Layer: 0
   m_Name: Point light (1)
-  m_TagString: Untagged
+  m_TagString: Lights
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7360,6 +7360,8 @@ MonoBehaviour:
     voiceOverClip: {fileID: 0}
     audioSourceVolume: 0
   startButton: {fileID: 1656159289}
+  lights: []
+  fade_duration: 1
 --- !u!328 &1766603174
 VideoPlayer:
   m_ObjectHideFlags: 0

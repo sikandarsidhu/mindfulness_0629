@@ -60,6 +60,11 @@ public class PanoramaHandler : MonoBehaviour {
 
     [SerializeField] GameObject startButton;
 
+    public GameObject[] lights;
+    private bool dimLights = false;
+    public float fade_duration = 1.0F;
+    private float t = 0.0F;
+
     // Use this for initialization
     void Start () {
         _panoramaPlayer = GetComponent<VideoPlayer>();
@@ -70,6 +75,31 @@ public class PanoramaHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        if(dimLights)
+        {
+            t += 0.3f * Time.deltaTime;
+
+            foreach (GameObject lightObject in lights)
+            {
+                Light l = lightObject.GetComponent<Light>();
+
+                if(t < 1 && l.intensity != 0.0f)
+                {
+                    l.intensity = Mathf.Lerp(1, 0, t);
+                }
+                else
+                {
+                    l.intensity = 0.0f;
+                }
+            }
+
+            if (t >= 1)
+            {
+                dimLights = false;
+                t = 0.0F;
+            }
+        }
 
 	}
 
@@ -96,6 +126,9 @@ public class PanoramaHandler : MonoBehaviour {
 		_voiceOverPlayer.Play ();
 		_audioPlayer.volume = _panoramaData [(int)_panoramaType].audioSourceVolume;
 
+        lights = GameObject.FindGameObjectsWithTag("Lights");
+
+        dimLights = true;
 
 
         if (!startButton.activeSelf)
