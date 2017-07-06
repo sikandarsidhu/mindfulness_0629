@@ -36,6 +36,9 @@ namespace VRStandardAssets.Examples
                 {
                    // _mGazeSwiitchSceneScript.SetIsReadyToTrue();
                     MSceneManager.Instance.SwitchScene(PanoramaHandler._currentPanoramaType.ToString(), duration);
+
+                    Debug.Log("loading scene: " + PanoramaHandler._currentPanoramaType.ToString());
+
                     _triggeredNextScene = true;
                 }
             }
@@ -69,7 +72,7 @@ namespace VRStandardAssets.Examples
         //Handle the Over event
         private void HandleOver()
         {
-            Debug.Log("Show over state");
+            //Debug.Log("Show over state");
             if (!_hasBeenPlayedOnce)
             {
                 _panoVoiceOverAudioSource.Stop();
@@ -82,7 +85,7 @@ namespace VRStandardAssets.Examples
         //Handle the Out event
         private void HandleOut()
         {
-            Debug.Log("Show out state");
+            //Debug.Log("Show out state");
             _buttonIsBeingPressed = false;
 
         }
@@ -91,7 +94,7 @@ namespace VRStandardAssets.Examples
         //Handle the Click event
         private void HandleClick()
         {
-            Debug.Log("Show click state");
+            //Debug.Log("Show click state");
 
         }
 
@@ -99,7 +102,7 @@ namespace VRStandardAssets.Examples
         //Handle the DoubleClick event
         private void HandleDoubleClick()
         {
-            Debug.Log("Show double click");
+            //Debug.Log("Show double click");
 
         }
     }
