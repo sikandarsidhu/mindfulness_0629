@@ -4,12 +4,26 @@ using UnityEngine;
 
 public class MeditationManager : MonoBehaviour {
 
+    private static MeditationManager instanceRef;
+
     public string levelName;
     public string meditationType;
 
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+        //DontDestroyOnLoad(transform.gameObject);
+
+
+        if (instanceRef == null)
+        {
+            instanceRef = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            DestroyImmediate(gameObject);
+        }
+
     }
 
     // Use this for initialization
