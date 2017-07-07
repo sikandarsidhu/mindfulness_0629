@@ -5,7 +5,7 @@ using UnityEngine;
 public class TreeAnim : MonoBehaviour {
 
     Animator anim;
-    [SerializeField]private float gazeDuration = 3f;
+    [SerializeField]private float gazeDuration = 1f;
     [SerializeField] private string GazeValue = "LookAtMe";
     private float gazeTimer = 0;
     //[SerializeField] float senseAngle;

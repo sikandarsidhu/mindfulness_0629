@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 37e515dcf9e03a74bbd164ee8e33118b
+timeCreated: 1499467041
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: L_stalk
+    100002: R_eye
+    100004: rock_006:L_claw6
+    100006: rock_006:L_claw_joint
+    100008: rock_006:L_elbow_joint
+    100010: rock_006:L_eye
+    100012: rock_006:L_stalk
+    100014: rock_006:L_stalk_bend
+    100016: rock_006:L_top_joint
+    100018: rock_006:L_wrist_joint
+    100020: rock_006:R_claw
+    100022: rock_006:R_claw_joint
+    100024: rock_006:R_elbow_joint
+    100026: rock_006:R_eye
+    100028: rock_006:R_stalk
+    100030: rock_006:R_stalk_bend
+    100032: rock_006:R_top_joint1
+    100034: rock_006:R_wrist_joint
+    100036: rock_006:rock
+    100038: rock_009:L_stalk
+    100040: rock_009:R_eye
+    100042: //RootNode
+    400000: L_stalk
+    400002: R_eye
+    400004: rock_006:L_claw6
+    400006: rock_006:L_claw_joint
+    400008: rock_006:L_elbow_joint
+    400010: rock_006:L_eye
+    400012: rock_006:L_stalk
+    400014: rock_006:L_stalk_bend
+    400016: rock_006:L_top_joint
+    400018: rock_006:L_wrist_joint
+    400020: rock_006:R_claw
+    400022: rock_006:R_claw_joint
+    400024: rock_006:R_elbow_joint
+    400026: rock_006:R_eye
+    400028: rock_006:R_stalk
+    400030: rock_006:R_stalk_bend
+    400032: rock_006:R_top_joint1
+    400034: rock_006:R_wrist_joint
+    400036: rock_006:rock
+    400038: rock_009:L_stalk
+    400040: rock_009:R_eye
+    400042: //RootNode
+    2300000: rock_006:L_eye
+    2300002: rock_006:L_stalk
+    2300004: rock_006:R_eye
+    2300006: rock_006:R_stalk
+    2300008: rock_006:rock
+    3300000: rock_006:L_eye
+    3300002: rock_006:L_stalk
+    3300004: rock_006:R_eye
+    3300006: rock_006:R_stalk
+    3300008: rock_006:rock
+    4300000: rock_006:rock
+    4300002: rock_006:R_claw
+    4300004: rock_006:L_claw6
+    4300006: rock_006:L_stalk
+    4300008: rock_006:L_eye
+    4300010: rock_006:R_stalk
+    4300012: rock_006:R_eye
+    4300014: rock_009:L_stalk
+    4300016: rock_009:R_eye
+    4300018: L_stalk
+    4300020: R_eye
+    9500000: //RootNode
+    13700000: L_stalk
+    13700002: R_eye
+    13700004: rock_006:L_claw6
+    13700006: rock_006:R_claw
+    13700008: rock_009:L_stalk
+    13700010: rock_009:R_eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
