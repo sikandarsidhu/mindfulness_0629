@@ -1031,6 +1031,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 276059089}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &276059086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1589,6 +1591,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 489896358}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &489896355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2808,6 +2812,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 691697648}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &691697645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4179,6 +4185,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1165099718}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &1165099715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4532,6 +4540,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1177764470}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &1177764476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5378,6 +5388,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1427397846}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &1427397843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6987,6 +6999,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1733074833}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &1733074830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7746,6 +7760,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 167.254, y: -274.243, z: -274.479}
+--- !u!1 &1836712812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1836712814}
+  - component: {fileID: 1836712813}
+  m_Layer: 0
+  m_Name: MeditationManager
+  m_TagString: MeditationManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1836712813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836712812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab1eb779cbb6004a9270efffa4dd9a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: 
+  meditationType: 
+--- !u!4 &1836712814
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836712812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.714083, y: 3.139083, z: 12.810648}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844305925
 GameObject:
   m_ObjectHideFlags: 0
@@ -8381,6 +8437,8 @@ MonoBehaviour:
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 2056284391}
   _duration: 5
+  _isCounting: 0
+  _count: 0
 --- !u!114 &2056284388
 MonoBehaviour:
   m_ObjectHideFlags: 0
