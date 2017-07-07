@@ -21,8 +21,8 @@ namespace VRStandardAssets.Examples
         [SerializeField] Renderer _Renderer;
 
         [SerializeField] float _duration = 3f;
-        bool _isCounting = false;
-        float _count;
+        [SerializeField] bool _isCounting = false;
+        [SerializeField] float _count;
 
 
         private void Awake ()

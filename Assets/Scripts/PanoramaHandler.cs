@@ -131,11 +131,8 @@ public class PanoramaHandler : MonoBehaviour {
         dimLights = true;
 
 
-        if (!startButton.activeSelf && (int)_panoramaType == 2)
-        {
-            startButton.SetActive(true);
+        //if (!startButton.activeSelf && (int)_panoramaType == 2)
+        startButton.SetActive(true);
 
-
-        }
     }
 }
