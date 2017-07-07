@@ -15,7 +15,7 @@ namespace VRStandardAssets.Examples
 
         bool _hasBeenPlayedOnce = false;
         bool _buttonIsBeingPressed = false;
-        [SerializeField] float _buttonPressDuration = 3.0f;
+        [SerializeField] float _buttonPressDuration = 2.0f;
 
         [SerializeField] float duration = 2f;
 
@@ -35,11 +35,17 @@ namespace VRStandardAssets.Examples
                 if (!_audioSource.isPlaying && !_triggeredNextScene)
                 {
                    // _mGazeSwiitchSceneScript.SetIsReadyToTrue();
-                    MSceneManager.Instance.SwitchScene(PanoramaHandler._currentPanoramaType.ToString(), duration);
+                   // MSceneManager.Instance.SwitchScene(PanoramaHandler._currentPanoramaType.ToString(), duration);
 
-                    Debug.Log("loading scene: " + PanoramaHandler._currentPanoramaType.ToString());
+                    Debug.Log("loading scene: ChooseMeditation");
+
+                    GameObject mmObj = GameObject.FindWithTag("MeditationManager");
+                    MeditationManager mm = mmObj.GetComponent<MeditationManager>();
+                    mm.setLevelName(PanoramaHandler._currentPanoramaType.ToString());
 
                     _triggeredNextScene = true;
+
+                    MSceneManager.Instance.SwitchScene("ChooseMeditation", duration);
                 }
             }
 
