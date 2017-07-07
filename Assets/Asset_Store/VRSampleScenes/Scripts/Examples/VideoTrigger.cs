@@ -20,9 +20,9 @@ namespace VRStandardAssets.Examples
         [SerializeField] Material _hoverOutMaterial;
         [SerializeField] Renderer _Renderer;
 
-        [SerializeField] float _duration = 3f;
-        [SerializeField] bool _isCounting = false;
-        [SerializeField] float _count;
+        [SerializeField] float _duration = 1f;
+        bool _isCounting = false;
+        float _count;
 
 
         private void Awake ()
