@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72959791389973a49b601daa48ad953a
+guid: 60a4e1e8e7825a84f97e51ff3bc3fe59
 timeCreated: 1499708739
 licenseType: Pro
 ModelImporter:
@@ -62,7 +62,7 @@ ModelImporter:
     4300008: R_eye
     4300010: R_stalk
     4300012: R_eye
-    7400000: '@emerge'
+    7400000: '@idle'
     9500000: //RootNode
     13700000: L_stalk
     13700002: R_eye
@@ -110,7 +110,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

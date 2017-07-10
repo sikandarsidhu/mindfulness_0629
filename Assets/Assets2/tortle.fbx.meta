@@ -1,75 +1,53 @@
 fileFormatVersion: 2
-guid: 72959791389973a49b601daa48ad953a
-timeCreated: 1499708739
+guid: 005de1e6871e9a84aa80c8b016daf2b6
+timeCreated: 1499726784
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: joint1
-    100002: joint2
-    100004: joint3
-    100006: joint4
-    100008: joint5
-    100010: joint6
-    100012: joint7
-    100014: joint8
-    100016: L_claw_joint
-    100018: L_elbow_joint
-    100020: L_stalk
-    100022: L_top_joint
-    100024: L_wrist_joint
-    100026: R_elbow_joint
-    100028: R_eye
-    100030: R_eye 1
-    100032: R_stalk
-    100034: R_top_joint1
-    100036: R_wrist_joint
-    100038: rock
-    100040: rock_006:L_claw6
-    100042: rock_006:R_claw
-    100044: rock_006:R_claw_joint
-    100046: //RootNode
+    100002: joint10
+    100004: joint11
+    100006: joint2
+    100008: joint3
+    100010: joint4
+    100012: joint5
+    100014: joint6
+    100016: joint7
+    100018: joint7 1
+    100020: joint7 2
+    100022: joint7 3
+    100024: joint8
+    100026: joint8 1
+    100028: joint8 2
+    100030: joint8 3
+    100032: joint9
+    100034: pCube2
+    100036: //RootNode
     400000: joint1
-    400002: joint2
-    400004: joint3
-    400006: joint4
-    400008: joint5
-    400010: joint6
-    400012: joint7
-    400014: joint8
-    400016: L_claw_joint
-    400018: L_elbow_joint
-    400020: L_stalk
-    400022: L_top_joint
-    400024: L_wrist_joint
-    400026: R_elbow_joint
-    400028: R_eye
-    400030: R_eye 1
-    400032: R_stalk
-    400034: R_top_joint1
-    400036: R_wrist_joint
-    400038: rock
-    400040: rock_006:L_claw6
-    400042: rock_006:R_claw
-    400044: rock_006:R_claw_joint
-    400046: //RootNode
-    2300000: rock
-    3300000: rock
-    4300000: rock
-    4300002: rock_006:R_claw
-    4300004: rock_006:L_claw6
-    4300006: L_stalk
-    4300008: R_eye
-    4300010: R_stalk
-    4300012: R_eye
-    7400000: '@emerge'
+    400002: joint10
+    400004: joint11
+    400006: joint2
+    400008: joint3
+    400010: joint4
+    400012: joint5
+    400014: joint6
+    400016: joint7
+    400018: joint7 1
+    400020: joint7 2
+    400022: joint7 3
+    400024: joint8
+    400026: joint8 1
+    400028: joint8 2
+    400030: joint8 3
+    400032: joint9
+    400034: pCube2
+    400036: //RootNode
+    2300000: pCube2
+    3300000: pCube2
+    4300000: pCube2
     9500000: //RootNode
-    13700000: L_stalk
-    13700002: R_eye
-    13700004: R_eye 1
-    13700006: R_stalk
-    13700008: rock_006:L_claw6
-    13700010: rock_006:R_claw
+    13700000: pCube2
   materials:
     importMaterials: 1
     materialName: 0
