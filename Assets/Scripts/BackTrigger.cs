@@ -31,7 +31,7 @@ public class BackTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (createdTimer && _buttonPressTimer.IsOffCooldown && !_triggeredNextScene)
+        if (createdTimer && _buttonPressTimer.IsOffCooldown && !_triggeredNextScene && _buttonIsBeingPressed)
         {
             // _mGazeSwiitchSceneScript.SetIsReadyToTrue();
             MSceneManager.Instance.SwitchScene(mainMenuScene, duration);
