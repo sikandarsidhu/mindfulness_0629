@@ -46,7 +46,7 @@ public class MoonSnore : MonoBehaviour
             //snore.Stop();
 
 
-            Debug.Log("stop Moon snore");
+            //Debug.Log("stop Moon snore");
 
             if (snoreSource.isPlaying)
             {
