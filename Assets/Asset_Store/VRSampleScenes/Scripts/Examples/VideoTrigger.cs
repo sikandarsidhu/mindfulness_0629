@@ -71,7 +71,7 @@ namespace VRStandardAssets.Examples
         //Handle the Over event
         private void HandleOver()
         {
-            Debug.Log("Show over state");
+            //Debug.Log("Show over state");
             if (!_isCounting)
             {
                 _videoPlayer.Play();
@@ -87,7 +87,7 @@ namespace VRStandardAssets.Examples
         //Handle the Out event
         private void HandleOut()
         {
-            Debug.Log("Show out state");
+            //Debug.Log("Show out state");
             _isCounting = false;
             _videoPlayer.Stop();
             _movieScreenScript.InitializeVideo();
@@ -100,7 +100,7 @@ namespace VRStandardAssets.Examples
         //Handle the Click event
         private void HandleClick()
         {
-            Debug.Log("Show click state");
+            //Debug.Log("Show click state");
 			_audioSource.Play();
            
         }
@@ -109,7 +109,7 @@ namespace VRStandardAssets.Examples
         //Handle the DoubleClick event
         private void HandleDoubleClick()
         {
-            Debug.Log("Show double click");
+            //Debug.Log("Show double click");
             
         }
     }

@@ -3,79 +3,59 @@ using System.Collections.Generic;
 using UnityEngine;
 using VRStandardAssets.Utils;
 
-public class TreeSneeze : MonoBehaviour
+public class MoonSnore : MonoBehaviour
 {
-
-    Animator anim;
-    [SerializeField] private string GazeValue = "LookAtMe";
 
     [SerializeField] private VRInteractiveItem m_InteractiveItem;
 
-    public SpiralParticle spiral;
-    public int frame_count = 0;
-    public bool played_particles_this_animation = false;
-
-    public AudioSource sneezeSound;
-
-    public bool animation_playing = false;
+    //public Animation snore;
+    public AudioSource snoreSource;
 
     public float _duration = 1f;
     public bool _isCounting = false;
     public float _count;
 
-    void Start()
+    private void Start()
     {
-        anim = this.GetComponent<Animator>();
-        spiral = GetComponentInChildren<SpiralParticle>();
+        //snoreSource.Play();
     }
 
     private void Update()
     {
-        if (_isCounting && !animation_playing)
-        {
-            _count += Time.deltaTime;
+        //Debug.Log("Moon update");
 
+        if (_isCounting)
+        {
+
+            _count += Time.deltaTime;
             if (_count > _duration)
             {
-                //do something after gazing for the duration
-                played_particles_this_animation = true;
-
-                anim.SetBool(GazeValue, true);
-                animation_playing = true;
-                sneezeSound.Play();
-            }
-            else
-            {
-                anim.SetBool(GazeValue, false);
-
-                if (frame_count >= 10 && !played_particles_this_animation)
+                //do somethingafter gazing for the duration
+                
+                //snore.Play();
+                
+                if(!snoreSource.isPlaying)
                 {
-                    spiral.Emit(1);
-                    //Debug.Log("particles: " + spiral.GetParticleCount().ToString());
-                    frame_count = 0;
+                    Debug.Log("play Moon snore");
+                    snoreSource.Play();
                 }
-                else
-                {
-                    frame_count += 1;
-
-                }
-
             }
         }
         else
         {
-            anim.SetBool(GazeValue, false);
-            
+            //snore.Stop();
+
+
+            Debug.Log("stop Moon snore");
+
+            if (snoreSource.isPlaying)
+            {
+                Debug.Log("stop Moon snore");
+                snoreSource.Stop();
+            }
         }
     }
 
-    public void OnEndAnimation()
-    {
-        Debug.Log("animation has ended");
-        played_particles_this_animation = false;
-        animation_playing = false;
-        _count = 0.0f;
-    }
 
     private void OnEnable()
     {
