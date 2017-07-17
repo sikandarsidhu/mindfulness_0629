@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using VRStandardAssets.Utils;
 
-public class GazeTemplate : MonoBehaviour {
+public class GazeboTrigger : MonoBehaviour
+{
 
     [SerializeField] private VRInteractiveItem m_InteractiveItem;
 
@@ -12,6 +13,9 @@ public class GazeTemplate : MonoBehaviour {
     public float count;
     public bool alreadyActivated = false;
 
+    public GameObject gazebo;
+    public GameObject shade;
+
     private void Update()
     {
         if (isCounting)
@@ -19,9 +23,15 @@ public class GazeTemplate : MonoBehaviour {
             count += Time.deltaTime;
             if (count > duration && !alreadyActivated)
             {
-
+                gazebo.SetActive(!gazebo.activeSelf);
+                shade.SetActive(!shade.activeSelf);
+                
                 alreadyActivated = true;
             }
+        }
+        else
+        {
+            alreadyActivated = false;
         }
     }
 

@@ -8,6 +8,7 @@ public class MeditationTrigger : MonoBehaviour {
     [SerializeField] private VRInteractiveItem m_InteractiveItem;
 
     public string _meditationName;
+    public AudioSource source;
 
     float _fadeDuration = 2f;
 
@@ -69,6 +70,8 @@ public class MeditationTrigger : MonoBehaviour {
                 MSceneManager.Instance.SwitchScene(mm.getLevelName(), _fadeDuration);
 
                 _triggeredNextScene = true;
+
+                source.Play();
             }
         }
 

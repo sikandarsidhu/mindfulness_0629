@@ -365,6 +365,7 @@ GameObject:
   - component: {fileID: 1151477404}
   - component: {fileID: 1151477408}
   - component: {fileID: 1151477407}
+  - component: {fileID: 1151477409}
   m_Layer: 0
   m_Name: Breathe
   m_TagString: Untagged
@@ -451,9 +452,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 1151477408}
   _meditationName: Breathe
+  source: {fileID: 1151477409}
   _duration: 3
   _isCounting: 0
   _count: 0
+  _triggeredNextScene: 0
 --- !u!114 &1151477408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,6 +468,86 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1151477409
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1151477402}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 72bbd4d9f5abfcb45bacfaa835091b5d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1469746831
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,7 +594,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 09e46d78ad17efe4fb0b82a5d67157a4, type: 2}
+  - {fileID: 2100000, guid: 4679242ebf0ff524d89af757c77c02d6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -557,16 +640,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1469746831}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e36d38af79fd114ab2d47f27c26f359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 1469746837}
   _meditationName: Relax
+  source: {fileID: 0}
   _duration: 3
   _isCounting: 0
   _count: 0
+  _triggeredNextScene: 0
 --- !u!114 &1469746837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,7 +709,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 733c9a16a70b61844a2b7cb08abbf533, type: 2}
+  - {fileID: 2100000, guid: ecc11023ef69f4b43ad591d93da9d341, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -670,16 +755,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1796474810}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e36d38af79fd114ab2d47f27c26f359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 1796474816}
   _meditationName: Unwind
+  source: {fileID: 0}
   _duration: 3
   _isCounting: 0
   _count: 0
+  _triggeredNextScene: 0
 --- !u!114 &1796474816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,7 +824,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: daf0d3b0924fb6b46b5b34d87df4765b, type: 2}
+  - {fileID: 2100000, guid: 6595798a1837a6f4f8401113db13c749, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -783,16 +870,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1870369693}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e36d38af79fd114ab2d47f27c26f359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 1870369699}
   _meditationName: Restore
+  source: {fileID: 0}
   _duration: 3
   _isCounting: 0
   _count: 0
+  _triggeredNextScene: 0
 --- !u!114 &1870369699
 MonoBehaviour:
   m_ObjectHideFlags: 0

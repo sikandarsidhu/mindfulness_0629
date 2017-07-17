@@ -1030,7 +1030,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 276059089}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &276059086
@@ -1590,7 +1589,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 489896358}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &489896355
@@ -2811,7 +2809,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 691697648}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &691697645
@@ -4184,7 +4181,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1165099718}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &1165099715
@@ -4539,7 +4535,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1177764470}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &1177764476
@@ -5387,7 +5382,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1427397846}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &1427397843
@@ -6374,6 +6368,134 @@ Transform:
   m_Father: {fileID: 980453864}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1610110777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1610110781}
+  - component: {fileID: 1610110780}
+  - component: {fileID: 1610110779}
+  - component: {fileID: 1610110778}
+  - component: {fileID: 1610110784}
+  - component: {fileID: 1610110783}
+  - component: {fileID: 1610110782}
+  m_Layer: 0
+  m_Name: GazeboButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1610110778
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610110777}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4a61554f01427fa458a4457f9bf5fa53, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1610110779
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610110777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1610110780
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610110777}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1610110781
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610110777}
+  m_LocalRotation: {x: 0.66967493, y: 0.2264089, z: -0.22625259, w: 0.6701376}
+  m_LocalPosition: {x: -21.6, y: 1.67, z: -8.35}
+  m_LocalScale: {x: 0.12198968, y: 0.121989496, z: 0.121989496}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 89.97201, y: 0, z: -37.312}
+--- !u!114 &1610110782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610110777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a767f66d84e8e048b64033129bd8fc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractiveItem: {fileID: 1610110783}
+  duration: 1
+  isCounting: 0
+  count: 0
+  alreadyActivated: 0
+  gazebo: {fileID: 1665164752}
+  shade: {fileID: 686728704}
+--- !u!114 &1610110783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610110777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1610110784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610110777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.138379, y: 0.0000008282954, z: 8.229165}
+  m_Center: {x: 0.62274766, y: -0.00000014612351, z: 0.0019514873}
 --- !u!1 &1613711071
 GameObject:
   m_ObjectHideFlags: 0
@@ -6998,7 +7120,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 1733074833}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &1733074830
@@ -8436,7 +8557,6 @@ MonoBehaviour:
   _hoverInMaterial: {fileID: 2100000, guid: 5c6d32e8ce93a174db4370351cc2afcc, type: 2}
   _hoverOutMaterial: {fileID: 2100000, guid: 92c192ace83609a458da2c807d0503bf, type: 2}
   _Renderer: {fileID: 2056284391}
-  _duration: 5
   _isCounting: 0
   _count: 0
 --- !u!114 &2056284388
