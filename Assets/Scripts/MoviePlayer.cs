@@ -8,7 +8,7 @@ public class MoviePlayer : MonoBehaviour
 {
 
     public MovieTexture movie;
-    private AudioSource audio;
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -22,11 +22,11 @@ public class MoviePlayer : MonoBehaviour
         movie.loop = true;
 
 
-         audio = GetComponent<AudioSource>();
-        audio.clip = movie.audioClip;
+         audioSource = GetComponent<AudioSource>();
+        audioSource.clip = movie.audioClip;
 
         movie.Play();
-        audio.Play();
+        audioSource.Play();
 
     }
     void Update()
