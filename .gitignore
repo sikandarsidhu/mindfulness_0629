@@ -32,3 +32,35 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/Models/Stylized Nature Pack/Nature/Grass/grass_1.psd
+Assets/Models/Stylized Nature Pack/Particles/Textures/SunShaft.psd
+Assets/Models/Stylized Nature Pack/Stones/Detail Textures/stone_detail_albedo.psd
+Assets/Models/Stylized Nature Pack/Stones/Detail Textures/stone_detail_normal.psd
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 1/Textures/stone_1_normal.TGA
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 1/Textures/stone_1_occlusion.tga
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 2/Textures/stone_2_occlusion.tga
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 3/Textures/stone_3_normal.TGA
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 4/Textures/stone_4_occlusion.tga
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 4/Textures/stone_4_normal.TGA
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 3/Textures/stone_3_occlusion.tga
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 5/Textures/stone_5_normal.TGA
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 5/Textures/stone_5_occlusion.tga
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 6/Textures/stone_6_normal.TGA
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 6/Textures/stone_6_occlusion.tga
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 7/Textures/stone_7_occlusion.tga
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 7/Textures/stone_7_normal.TGA
+Assets/Models/Stylized Nature Pack/Stones/Stone Models/Stone 2/Textures/stone_2_normal.TGA
+Assets/Models/Stylized Nature Pack/Stones/Tiling Stone Material/Textures/tiling_stone_normal.psd
+Assets/Models/Stylized Nature Pack/Stones/Tiling Stone Material/Textures/tiling_stone_height.PSD
+Assets/Models/Stylized Nature Pack/Stones/Tiling Stone Material/Textures/tiling_stone_occlusion.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_A_1.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_B_1.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_A_3.psd
+Assets/Models/Stylized Nature Pack/Terrain/stone_1.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_B_normal.psd
+Assets/Models/Stylized Nature Pack/Terrain/stone_2.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_A_4.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_A_normal.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_A_5.psd
+Assets/Models/Stylized Nature Pack/Terrain/ground_B_2.psd
+Assets/Models/Stylized Nature Pack/Terrain/stone_normal.psd
