@@ -4743,6 +4743,47 @@ Prefab:
       propertyPath: intensity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114653457331301280, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c8f7a7dd34f79343be5e37d6bbbfab5,
+        type: 3}
+    - target: {fileID: 114653457331301280, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0.49019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 224330380245849892, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 224330380245849892, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 224330380245849892, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 114653457331301280, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114653457331301280, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114653457331301280, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
   m_IsPrefabParent: 0
@@ -7423,11 +7464,11 @@ MonoBehaviour:
   _panoramaData:
   - whichPanorama: 0
     panoPosition: {x: -37, y: -26, z: 46}
-    panoRotation: {x: 0, y: 141, z: 0}
+    panoRotation: {x: 0, y: 105, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
-    videoClip: {fileID: 32900000, guid: 47274c03d2fa158498f5a54c8610bc79, type: 3}
+    videoClip: {fileID: 32900000, guid: c3baf48089eed8d48b7b8ab0859851e8, type: 3}
     audioClip: {fileID: 8300000, guid: 95711906f7133cd4ba9312f143944ca3, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 6011bbd5208623f49b5f1b8f91d343d7, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.25
   - whichPanorama: 1
     panoPosition: {x: -49, y: 0, z: 20}
@@ -7435,7 +7476,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 42ddddd906425594c910941335b0838a, type: 3}
     audioClip: {fileID: 8300000, guid: 612502fd96fe56f4ab3ea81be1d339da, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 18f7abd05c94f294a9b6b2479bd872f4, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.25
   - whichPanorama: 2
     panoPosition: {x: -53, y: 24, z: 0}
@@ -7451,15 +7492,15 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 9ea1766fc172091489a6d9274d648bdc, type: 3}
     audioClip: {fileID: 8300000, guid: 7e799c4cd18178d428b58d8ad80741a9, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 7300bc2799e8cf1429a3f0ff169f7295, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.25
   - whichPanorama: 4
     panoPosition: {x: -38, y: 0, z: 35}
     panoRotation: {x: 0, y: 582, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
-    videoClip: {fileID: 32900000, guid: 9d213d75c898b964eaa147ac3729d24b, type: 3}
+    videoClip: {fileID: 32900000, guid: 4445387529362a047ba0d6c0aa031383, type: 3}
     audioClip: {fileID: 8300000, guid: a6d2bd8f2943efe4fb9801dfc6c6ecbd, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 33b8d32475a613e4fa94e845a6fc0299, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.5
   - whichPanorama: 5
     panoPosition: {x: -37, y: 0, z: 46}
@@ -7467,7 +7508,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 4130667ac1b130f40af9981a66b2003f, type: 3}
     audioClip: {fileID: 8300000, guid: 4b8d8bf96bbec524f9f18c74e04dda2b, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 1e2c891a7aa30f04db5657dba84f529c, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.5
   - whichPanorama: 6
     panoPosition: {x: -40, y: 0, z: 37}
@@ -7475,7 +7516,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 464fdba6088c8974d87b3e9b9dbe0c39, type: 3}
     audioClip: {fileID: 8300000, guid: b2b351868eafd014f94e07eddb2f08a8, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 742637718a0bffa438f2a698a7d289ea, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.2
   - whichPanorama: 7
     panoPosition: {x: -45, y: 0, z: 26}
@@ -7483,7 +7524,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: f96469dc066c4854ab17d30a20437d0d, type: 3}
     audioClip: {fileID: 8300000, guid: da7d6e6869bbe1a4d8c7f643a687cad7, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 4ae2fa1b77f10f64a95d6ec2c6e8771f, type: 3}
+    voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.1
   - whichPanorama: 8
     panoPosition: {x: 0, y: 0, z: 0}
