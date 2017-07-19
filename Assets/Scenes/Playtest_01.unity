@@ -6489,13 +6489,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1610110777}
-  m_LocalRotation: {x: 0.66967493, y: 0.2264089, z: -0.22625259, w: 0.6701376}
-  m_LocalPosition: {x: -21.6, y: 1.67, z: -8.35}
+  m_LocalRotation: {x: 0.6917192, y: 0.14563045, z: -0.14552967, w: 0.6921976}
+  m_LocalPosition: {x: -26.402, y: 1.67, z: -13.69}
   m_LocalScale: {x: 0.12198968, y: 0.121989496, z: 0.121989496}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 89.97201, y: 0, z: -37.312}
+  m_LocalEulerAnglesHint: {x: 89.97201, y: 0, z: -23.746}
 --- !u!114 &1610110782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7466,7 +7466,7 @@ MonoBehaviour:
     panoPosition: {x: -37, y: -26, z: 46}
     panoRotation: {x: 0, y: 105, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
-    videoClip: {fileID: 32900000, guid: c3baf48089eed8d48b7b8ab0859851e8, type: 3}
+    videoClip: {fileID: 32900000, guid: 03a6874828719b649abc749021104421, type: 3}
     audioClip: {fileID: 8300000, guid: 95711906f7133cd4ba9312f143944ca3, type: 3}
     voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.25
@@ -7488,7 +7488,7 @@ MonoBehaviour:
     audioSourceVolume: 0.75
   - whichPanorama: 3
     panoPosition: {x: -36, y: 2, z: 55}
-    panoRotation: {x: 0, y: 222, z: 0}
+    panoRotation: {x: 0, y: -213, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 9ea1766fc172091489a6d9274d648bdc, type: 3}
     audioClip: {fileID: 8300000, guid: 7e799c4cd18178d428b58d8ad80741a9, type: 3}

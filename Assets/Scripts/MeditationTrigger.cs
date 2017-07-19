@@ -12,7 +12,7 @@ public class MeditationTrigger : MonoBehaviour {
 
     float _fadeDuration = 2f;
 
-    public float _duration = 3f;
+    public float _duration = 2f;
     public bool _isCounting = false;
     public float _count;
 
@@ -63,6 +63,8 @@ public class MeditationTrigger : MonoBehaviour {
             _count += Time.deltaTime;
             if (_count > _duration && !_triggeredNextScene)
             {
+                source.Play();
+
                 GameObject mmObj = GameObject.FindWithTag("MeditationManager");
                 MeditationManager mm = mmObj.GetComponent<MeditationManager>();
                 mm.setMeditationType(_meditationName);
