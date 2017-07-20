@@ -20,6 +20,8 @@ namespace VRStandardAssets.Examples
         [SerializeField] Material _hoverOutMaterial;
         [SerializeField] Renderer _Renderer;
 
+        public bool isVideo = true;
+
         float _duration = 1f;
         public bool _isCounting = false;
         public float _count;
@@ -74,7 +76,9 @@ namespace VRStandardAssets.Examples
             //Debug.Log("Show over state");
             if (!_isCounting)
             {
-                _videoPlayer.Play();
+                if(isVideo)
+                    _videoPlayer.Play();
+
                 _isCounting = true;
                 _count = 0.0f;
                 _Renderer.material = _hoverInMaterial;
@@ -88,9 +92,15 @@ namespace VRStandardAssets.Examples
         private void HandleOut()
         {
             //Debug.Log("Show out state");
+
+            if (isVideo)
+            {
+                _videoPlayer.Stop();
+                _movieScreenScript.InitializeVideo();
+            }
+
             _isCounting = false;
-            _videoPlayer.Stop();
-            _movieScreenScript.InitializeVideo();
+            
             _Renderer.material = _hoverOutMaterial;
 			_audioSource.Stop();
 
