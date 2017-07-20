@@ -2669,7 +2669,7 @@ MonoBehaviour:
   _blindRiseDuration: 10
   _startAmbientIntensity: 0
   _finalAmbientIntensity: 2
-  _delay: 4
+  _delay: 3
 --- !u!4 &686728706
 Transform:
   m_ObjectHideFlags: 0
@@ -2695,7 +2695,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6dd5b118ccc06dd4a9420ef56771d71e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d27831a5acb4a764aa379d0e8356f7a3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3453,7 +3453,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.98012173, b: 0.89705884, a: 1}
   m_Intensity: 2
-  m_Range: 30
+  m_Range: 20
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -7505,13 +7505,13 @@ MonoBehaviour:
     panoPosition: {x: -37, y: 0, z: 46}
     panoRotation: {x: 0, y: 0, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
-    videoClip: {fileID: 32900000, guid: 4130667ac1b130f40af9981a66b2003f, type: 3}
+    videoClip: {fileID: 32900000, guid: c0c3b0d13429a5745bde1f0192788856, type: 3}
     audioClip: {fileID: 8300000, guid: 4b8d8bf96bbec524f9f18c74e04dda2b, type: 3}
     voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.5
   - whichPanorama: 6
-    panoPosition: {x: -40, y: 0, z: 37}
-    panoRotation: {x: 0, y: 223, z: 0}
+    panoPosition: {x: -165, y: 0, z: 47}
+    panoRotation: {x: 0, y: 137, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 464fdba6088c8974d87b3e9b9dbe0c39, type: 3}
     audioClip: {fileID: 8300000, guid: b2b351868eafd014f94e07eddb2f08a8, type: 3}
