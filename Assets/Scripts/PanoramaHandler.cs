@@ -58,7 +58,8 @@ public class PanoramaHandler : MonoBehaviour {
 
     [SerializeField] PanoramaData[] _panoramaData;
 
-    [SerializeField] GameObject startButton;
+    [SerializeField] GameObject forestStartButton;
+    [SerializeField] GameObject otherStartButton;
 
     public GameObject[] lights;
     private bool dimLights = false;
@@ -131,10 +132,16 @@ public class PanoramaHandler : MonoBehaviour {
         dimLights = true;
 
 
-        if (!startButton.activeSelf && (int)_panoramaType == 2)
-            startButton.SetActive(true);
+        if (/*!forestStartButton.activeSelf && */(int)_panoramaType == 2)
+        {
+            forestStartButton.SetActive(true);
+            otherStartButton.SetActive(false);
+        }
         else
-            startButton.SetActive(false);
+        {
+            forestStartButton.SetActive(false);
+            otherStartButton.SetActive(true);
+        }
 
     }
 }

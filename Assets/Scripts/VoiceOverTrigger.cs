@@ -32,12 +32,12 @@ namespace VRStandardAssets.Examples
         {
             if (_hasBeenPlayedOnce)
             {
-                if (!_audioSource.isPlaying && !_triggeredNextScene)
+                if (/*!_audioSource.isPlaying && */!_triggeredNextScene)
                 {
                    // _mGazeSwiitchSceneScript.SetIsReadyToTrue();
                    // MSceneManager.Instance.SwitchScene(PanoramaHandler._currentPanoramaType.ToString(), duration);
 
-                    Debug.Log("loading scene: ChooseMeditation");
+                    Debug.Log("loading scene: Forest");
 
                     GameObject mmObj = GameObject.FindWithTag("MeditationManager");
                     MeditationManager mm = mmObj.GetComponent<MeditationManager>();
@@ -45,12 +45,13 @@ namespace VRStandardAssets.Examples
 
                     _triggeredNextScene = true;
 
-                    MSceneManager.Instance.SwitchScene("ChooseMeditation", duration);
+                    MSceneManager.Instance.SwitchScene("Forest", duration);
                 }
             }
 
             if (_buttonIsBeingPressed && _buttonPressTimer.IsOffCooldown && !_hasBeenPlayedOnce)
             {
+                Debug.Log("play it");
                 _audioSource.Play();
                 _hasBeenPlayedOnce = true;
             }
