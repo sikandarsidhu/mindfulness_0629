@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 92c28051abbf1f246871c90351bd58c0
+timeCreated: 1500659583
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bend1Handle
+    100002: blooming_flower
+    100004: blooming_petal1
+    100006: blooming_petal10
+    100008: blooming_petal10 1
+    100010: blooming_petal2
+    100012: blooming_petal3
+    100014: blooming_petal4
+    100016: blooming_petal5
+    100018: blooming_petal6
+    100020: blooming_petal6 1
+    100022: blooming_petal7
+    100024: blooming_petal7 1
+    100026: blooming_petal8
+    100028: blooming_petal8 1
+    100030: blooming_petal9
+    100032: blooming_petal9 1
+    100034: ffd1Base
+    100036: ffd1Lattice
+    100038: flower
+    100040: flower1
+    100042: //RootNode
+    100044: green_thing1
+    100046: inner_blooming
+    100048: outer_blooming
+    100050: pCube1
+    100052: pCube10
+    100054: pCube10 1
+    100056: pCube11
+    100058: pCube11 1
+    100060: pCube12
+    100062: pCube12 1
+    100064: pCube13
+    100066: pCube13 1
+    100068: pCube14
+    100070: pCube14 1
+    100072: pCube15
+    100074: pCube15 1
+    100076: pCube16
+    100078: pCube16 1
+    100080: pCube17
+    100082: pCube17 1
+    100084: pCube18
+    100086: pCube18 1
+    100088: pCube19
+    100090: pCube19 1
+    100092: pCube6
+    100094: pCube7
+    100096: pCube8
+    100098: pCube9
+    100100: pCube9 1
+    100102: pCylinder6
+    100104: pCylinder7
+    100106: petal1
+    100108: petal10
+    100110: petal2
+    400000: bend1Handle
+    400002: blooming_flower
+    400004: blooming_petal1
+    400006: blooming_petal10
+    400008: blooming_petal10 1
+    400010: blooming_petal2
+    400012: blooming_petal3
+    400014: blooming_petal4
+    400016: blooming_petal5
+    400018: blooming_petal6
+    400020: blooming_petal6 1
+    400022: blooming_petal7
+    400024: blooming_petal7 1
+    400026: blooming_petal8
+    400028: blooming_petal8 1
+    400030: blooming_petal9
+    400032: blooming_petal9 1
+    400034: ffd1Base
+    400036: ffd1Lattice
+    400038: flower
+    400040: flower1
+    400042: //RootNode
+    400044: green_thing1
+    400046: inner_blooming
+    400048: outer_blooming
+    400050: pCube1
+    400052: pCube10
+    400054: pCube10 1
+    400056: pCube11
+    400058: pCube11 1
+    400060: pCube12
+    400062: pCube12 1
+    400064: pCube13
+    400066: pCube13 1
+    400068: pCube14
+    400070: pCube14 1
+    400072: pCube15
+    400074: pCube15 1
+    400076: pCube16
+    400078: pCube16 1
+    400080: pCube17
+    400082: pCube17 1
+    400084: pCube18
+    400086: pCube18 1
+    400088: pCube19
+    400090: pCube19 1
+    400092: pCube6
+    400094: pCube7
+    400096: pCube8
+    400098: pCube9
+    400100: pCube9 1
+    400102: pCylinder6
+    400104: pCylinder7
+    400106: petal1
+    400108: petal10
+    400110: petal2
+    2300000: pCube1
+    2300002: pCube10
+    2300004: pCube10 1
+    2300006: pCube11
+    2300008: pCube11 1
+    2300010: pCube12
+    2300012: pCube12 1
+    2300014: pCube13
+    2300016: pCube13 1
+    2300018: pCube14
+    2300020: pCube14 1
+    2300022: pCube15
+    2300024: pCube15 1
+    2300026: pCube16
+    2300028: pCube16 1
+    2300030: pCube17
+    2300032: pCube17 1
+    2300034: pCube18
+    2300036: pCube18 1
+    2300038: pCube19
+    2300040: pCube19 1
+    2300042: pCube6
+    2300044: pCube7
+    2300046: pCube8
+    2300048: pCube9
+    2300050: pCube9 1
+    2300052: pCylinder6
+    2300054: pCylinder7
+    2300056: petal1
+    2300058: petal10
+    2300060: petal2
+    3300000: pCube1
+    3300002: pCube10
+    3300004: pCube10 1
+    3300006: pCube11
+    3300008: pCube11 1
+    3300010: pCube12
+    3300012: pCube12 1
+    3300014: pCube13
+    3300016: pCube13 1
+    3300018: pCube14
+    3300020: pCube14 1
+    3300022: pCube15
+    3300024: pCube15 1
+    3300026: pCube16
+    3300028: pCube16 1
+    3300030: pCube17
+    3300032: pCube17 1
+    3300034: pCube18
+    3300036: pCube18 1
+    3300038: pCube19
+    3300040: pCube19 1
+    3300042: pCube6
+    3300044: pCube7
+    3300046: pCube8
+    3300048: pCube9
+    3300050: pCube9 1
+    3300052: pCylinder6
+    3300054: pCylinder7
+    3300056: petal1
+    3300058: petal10
+    3300060: petal2
+    4300000: pCylinder6
+    4300002: pCube1
+    4300004: pCube6
+    4300006: pCube7
+    4300008: pCube8
+    4300010: pCylinder7
+    4300012: pCube18
+    4300014: pCube16
+    4300016: pCube15
+    4300018: pCube14
+    4300020: pCube13
+    4300022: pCube12
+    4300024: pCube10
+    4300026: pCube17
+    4300028: pCube9
+    4300030: pCube11
+    4300032: pCube19
+    4300034: pCube18
+    4300036: pCube16
+    4300038: pCube15
+    4300040: pCube14
+    4300042: pCube13
+    4300044: pCube12
+    4300046: pCube10
+    4300048: pCube17
+    4300050: pCube9
+    4300052: pCube11
+    4300054: pCube19
+    4300056: petal1
+    4300058: petal2
+    4300060: blooming_petal1
+    4300062: petal10
+    4300064: blooming_petal2
+    4300066: blooming_petal3
+    4300068: blooming_petal4
+    4300070: blooming_petal5
+    4300072: blooming_petal6
+    4300074: blooming_petal7
+    4300076: blooming_petal8
+    4300078: blooming_petal9
+    4300080: blooming_petal10
+    4300082: blooming_petal6
+    4300084: blooming_petal7
+    4300086: blooming_petal8
+    4300088: blooming_petal9
+    4300090: blooming_petal10
+    7400000: bloom
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: blooming_petal1
+    13700002: blooming_petal10
+    13700004: blooming_petal10 1
+    13700006: blooming_petal2
+    13700008: blooming_petal3
+    13700010: blooming_petal4
+    13700012: blooming_petal5
+    13700014: blooming_petal6
+    13700016: blooming_petal6 1
+    13700018: blooming_petal7
+    13700020: blooming_petal7 1
+    13700022: blooming_petal8
+    13700024: blooming_petal8 1
+    13700026: blooming_petal9
+    13700028: blooming_petal9 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bloom
+      takeName: '@bloom'
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bend1Handle
+        weight: 1
+      - path: blooming_flower
+        weight: 1
+      - path: blooming_flower/inner_blooming
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal6
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal7
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal8
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal9
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal10
+        weight: 1
+      - path: blooming_flower/outer_blooming
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal6 1
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal7 1
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal8 1
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal9 1
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal10 1
+        weight: 1
+      - path: blooming_petal1
+        weight: 1
+      - path: blooming_petal2
+        weight: 1
+      - path: blooming_petal3
+        weight: 1
+      - path: blooming_petal4
+        weight: 1
+      - path: blooming_petal5
+        weight: 1
+      - path: ffd1Base
+        weight: 1
+      - path: ffd1Lattice
+        weight: 1
+      - path: green_thing1
+        weight: 1
+      - path: green_thing1/flower
+        weight: 1
+      - path: green_thing1/flower/pCube9
+        weight: 1
+      - path: green_thing1/flower/pCube10
+        weight: 1
+      - path: green_thing1/flower/pCube11
+        weight: 1
+      - path: green_thing1/flower/pCube12
+        weight: 1
+      - path: green_thing1/flower/pCube13
+        weight: 1
+      - path: green_thing1/flower/pCube14
+        weight: 1
+      - path: green_thing1/flower/pCube15
+        weight: 1
+      - path: green_thing1/flower/pCube16
+        weight: 1
+      - path: green_thing1/flower/pCube17
+        weight: 1
+      - path: green_thing1/flower/pCube18
+        weight: 1
+      - path: green_thing1/flower/pCube19
+        weight: 1
+      - path: green_thing1/flower1
+        weight: 1
+      - path: green_thing1/flower1/pCube9 1
+        weight: 1
+      - path: green_thing1/flower1/pCube10 1
+        weight: 1
+      - path: green_thing1/flower1/pCube11 1
+        weight: 1
+      - path: green_thing1/flower1/pCube12 1
+        weight: 1
+      - path: green_thing1/flower1/pCube13 1
+        weight: 1
+      - path: green_thing1/flower1/pCube14 1
+        weight: 1
+      - path: green_thing1/flower1/pCube15 1
+        weight: 1
+      - path: green_thing1/flower1/pCube16 1
+        weight: 1
+      - path: green_thing1/flower1/pCube17 1
+        weight: 1
+      - path: green_thing1/flower1/pCube18 1
+        weight: 1
+      - path: green_thing1/flower1/pCube19 1
+        weight: 1
+      - path: green_thing1/pCube1
+        weight: 1
+      - path: green_thing1/pCube6
+        weight: 1
+      - path: green_thing1/pCube7
+        weight: 1
+      - path: green_thing1/pCube8
+        weight: 1
+      - path: green_thing1/pCylinder6
+        weight: 1
+      - path: green_thing1/pCylinder7
+        weight: 1
+      - path: petal1
+        weight: 1
+      - path: petal2
+        weight: 1
+      - path: petal10
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
