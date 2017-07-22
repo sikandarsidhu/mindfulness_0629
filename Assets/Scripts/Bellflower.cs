@@ -11,7 +11,7 @@ public class Bellflower : MonoBehaviour
 
     [SerializeField] private VRInteractiveItem m_InteractiveItem;
 
-    public SpiralParticle spiral;
+    public GameObject dustParticles;
     public int frame_count = 0;
     public bool played_particles_this_animation = false;
 
@@ -26,7 +26,7 @@ public class Bellflower : MonoBehaviour
     void Start()
     {
         anim = this.GetComponent<Animator>();
-        spiral = GetComponentInChildren<SpiralParticle>();
+        //spiral = GetComponentInChildren<SpiralParticle>();
     }
 
     private void Update()
@@ -37,12 +37,18 @@ public class Bellflower : MonoBehaviour
 
             if (_count > _duration)
             {
+				//GameObject dust = Instantiate(dustParticles);
+				//dust.transform.parent = gameObject.transform;
+				dustParticles.SetActive (true);
+				StartCoroutine (flowerHit ());
                 //do something after gazing for the duration
-                played_particles_this_animation = true;
+                /*played_particles_this_animation = true;
 
                 anim.SetBool(GazeValue, true);
                 animation_playing = true;
                 bellSound.Play();
+				dustParticles.SetActive (true);*/
+
             }
             else
             {
@@ -50,7 +56,7 @@ public class Bellflower : MonoBehaviour
 
                 if (frame_count >= 10 && !played_particles_this_animation)
                 {
-                    spiral.Emit(1);
+                   // spiral.Emit(1);
                     //Debug.Log("particles: " + spiral.GetParticleCount().ToString());
                     frame_count = 0;
                 }
@@ -130,4 +136,16 @@ public class Bellflower : MonoBehaviour
         //Debug.Log("Show double click");
 
     }
+
+	IEnumerator flowerHit() {
+
+		//dustParticles.SetActive (true);
+
+		yield return new WaitForSeconds (1);
+		bellSound.Play();
+		anim.SetBool(GazeValue, true);
+		animation_playing = true;
+		played_particles_this_animation = true;
+	
+	}
 }
