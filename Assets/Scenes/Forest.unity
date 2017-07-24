@@ -38476,7 +38476,7 @@ MonoBehaviour:
   spiral: {fileID: 0}
   frame_count: 0
   played_particles_this_animation: 0
-  _duration: 1
+  _duration: 0
   _isCounting: 0
   _count: 0
 --- !u!65 &1454241159
