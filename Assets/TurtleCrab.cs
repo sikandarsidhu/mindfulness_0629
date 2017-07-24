@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using VRStandardAssets.Utils;
 
-public class Fireflies : MonoBehaviour
+public class TurtleCrab : MonoBehaviour
 {
 
 	Animator anim;
@@ -11,11 +11,11 @@ public class Fireflies : MonoBehaviour
 
 	[SerializeField] private VRInteractiveItem m_InteractiveItem;
 
-	public GameObject dustParticles;
+	public SpiralParticle spiral;
 	public int frame_count = 0;
 	public bool played_particles_this_animation = false;
 
-	//public AudioSource bellSound;
+	//public AudioSource sneezeSound;
 
 	public bool animation_playing = false;
 
@@ -26,29 +26,23 @@ public class Fireflies : MonoBehaviour
 	void Start()
 	{
 		anim = this.GetComponent<Animator>();
-		//spiral = GetComponentInChildren<SpiralParticle>();
+		spiral = GetComponentInChildren<SpiralParticle>();
 	}
 
 	private void Update()
 	{
-		if (_isCounting && !animation_playing)
+		if (_isCounting)
 		{
 			_count += Time.deltaTime;
 
 			if (_count > _duration)
 			{
-				//GameObject dust = Instantiate(dustParticles);
-				//dust.transform.parent = gameObject.transform;
-				dustParticles.SetActive (true);
-				StartCoroutine (flowerHit ());
 				//do something after gazing for the duration
-				/*played_particles_this_animation = true;
+				played_particles_this_animation = true;
 
-                anim.SetBool(GazeValue, true);
-                animation_playing = true;
-                bellSound.Play();
-				dustParticles.SetActive (true);*/
-
+				anim.SetBool(GazeValue, true);
+				animation_playing = true;
+				//sneezeSound.Play();
 			}
 			else
 			{
@@ -56,7 +50,7 @@ public class Fireflies : MonoBehaviour
 
 				if (frame_count >= 10 && !played_particles_this_animation)
 				{
-					// spiral.Emit(1);
+					spiral.Emit(1);
 					//Debug.Log("particles: " + spiral.GetParticleCount().ToString());
 					frame_count = 0;
 				}
@@ -71,6 +65,7 @@ public class Fireflies : MonoBehaviour
 		else
 		{
 			anim.SetBool(GazeValue, false);
+
 		}
 	}
 
@@ -118,7 +113,6 @@ public class Fireflies : MonoBehaviour
 		//Debug.Log("Show out state");
 		_isCounting = false;
 		_count = 0.0f;
-		dustParticles.SetActive (false);
 	}
 
 
@@ -134,18 +128,6 @@ public class Fireflies : MonoBehaviour
 	private void HandleDoubleClick()
 	{
 		//Debug.Log("Show double click");
-
-	}
-
-	IEnumerator flowerHit() {
-
-		//dustParticles.SetActive (true);
-
-		yield return new WaitForSeconds (1);
-		//	bellSound.Play();
-		anim.SetBool(GazeValue, true);
-		animation_playing = true;
-		played_particles_this_animation = true;
 
 	}
 }
