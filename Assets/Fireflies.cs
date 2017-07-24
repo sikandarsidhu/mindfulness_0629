@@ -52,7 +52,10 @@ public class Fireflies : MonoBehaviour
 			}
 			else
 			{
-				anim.SetBool(GazeValue, false);
+                if (anim)
+                {
+                    anim.SetBool(GazeValue, false);
+                }
 
 				if (frame_count >= 10 && !played_particles_this_animation)
 				{
@@ -70,7 +73,10 @@ public class Fireflies : MonoBehaviour
 		}
 		else
 		{
-			anim.SetBool(GazeValue, false);
+            if (anim)
+            {
+                anim.SetBool(GazeValue, false);
+            }
 		}
 	}
 
@@ -142,8 +148,11 @@ public class Fireflies : MonoBehaviour
 		//dustParticles.SetActive (true);
 
 		yield return new WaitForSeconds (1);
-		//	bellSound.Play();
-		anim.SetBool(GazeValue, true);
+        //	bellSound.Play();
+        if (anim)
+        {
+            anim.SetBool(GazeValue, true);
+        }
 		animation_playing = true;
 		played_particles_this_animation = true;
 
