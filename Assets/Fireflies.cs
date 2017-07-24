@@ -31,6 +31,7 @@ public class Fireflies : MonoBehaviour
 
 	private void Update()
 	{
+		
 		if (_isCounting && !animation_playing)
 		{
 			_count += Time.deltaTime;
@@ -39,6 +40,7 @@ public class Fireflies : MonoBehaviour
 			{
 				//GameObject dust = Instantiate(dustParticles);
 				//dust.transform.parent = gameObject.transform;
+				print ("setting active");
 				dustParticles.SetActive (true);
 				StartCoroutine (flowerHit ());
 				//do something after gazing for the duration
@@ -123,8 +125,10 @@ public class Fireflies : MonoBehaviour
 	{
 		//Debug.Log("Show out state");
 		_isCounting = false;
+		animation_playing = false;
 		_count = 0.0f;
 		dustParticles.SetActive (false);
+
 	}
 
 
