@@ -12,7 +12,7 @@ public class Bellflower : MonoBehaviour
     [SerializeField] private VRInteractiveItem m_InteractiveItem;
 
     public GameObject dustParticles;
-    public int frame_count = 0;
+    public int frame_count = 10;
     public bool played_particles_this_animation = false;
 
     public AudioSource bellSound;
@@ -118,7 +118,9 @@ public class Bellflower : MonoBehaviour
     {
         //Debug.Log("Show out state");
         _isCounting = false;
+		animation_playing = false;
         _count = 0.0f;
+		dustParticles.SetActive (false);
     }
 
 
@@ -141,7 +143,7 @@ public class Bellflower : MonoBehaviour
 
 		//dustParticles.SetActive (true);
 
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (5);
 		bellSound.Play();
 		anim.SetBool(GazeValue, true);
 		animation_playing = true;
