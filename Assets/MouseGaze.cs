@@ -52,7 +52,7 @@ public class MouseGaze : MonoBehaviour {
                     {
                         spiral.Emit(1);
                     }
-                    //Debug.Log("particles: " + spiral.GetParticleCount().ToString());
+                    Debug.Log("particles: " + spiral.GetParticleCount().ToString());
                     frame_count = 0;
                 }
                 else
