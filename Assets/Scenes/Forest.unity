@@ -22073,9 +22073,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1040139547}
-  - component: {fileID: 1040139550}
-  - component: {fileID: 1040139549}
-  - component: {fileID: 1040139548}
   m_Layer: 0
   m_Name: cattails1
   m_TagString: Untagged
@@ -22099,49 +22096,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -6.7900004, y: 5.635, z: -1.445}
---- !u!65 &1040139548
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040139546}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.29, y: 2.34, z: 1.79}
-  m_Center: {x: -0.84, y: 0, z: 0}
---- !u!114 &1040139549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040139546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87aa9ead62af64749b205c99e8f46b7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GazeValue: LookAtMe
-  m_InteractiveItem: {fileID: 1040139550}
-  dustParticles: {fileID: 0}
-  frame_count: 0
-  played_particles_this_animation: 0
-  animation_playing: 0
-  _duration: 1
-  _isCounting: 0
-  _count: 0
---- !u!114 &1040139550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040139546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1065210228
 GameObject:
   m_ObjectHideFlags: 0
