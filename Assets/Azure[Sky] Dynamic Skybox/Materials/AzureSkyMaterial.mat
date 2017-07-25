@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: AzureSkyMaterial
-  m_Shader: {fileID: 4800000, guid: b760f5fef9a99b549be1391be4988cfa, type: 3}
+  m_Shader: {fileID: 4800000, guid: b5296f377ce5d4a429cbf27103242334, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
