@@ -15,7 +15,7 @@ public class Fireflies : MonoBehaviour
 	public int frame_count = 0;
 	public bool played_particles_this_animation = false;
 
-	//public AudioSource bellSound;
+	public AudioSource Firefliessound;
 
 	public bool animation_playing = false;
 
@@ -128,6 +128,7 @@ public class Fireflies : MonoBehaviour
 		animation_playing = false;
 		_count = 0.0f;
 		dustParticles.SetActive (false);
+		Firefliessound.Stop ();
 
 	}
 
@@ -152,7 +153,7 @@ public class Fireflies : MonoBehaviour
 		//dustParticles.SetActive (true);
 
 		yield return new WaitForSeconds (1);
-        //	bellSound.Play();
+		Firefliessound.Play();
         if (anim)
         {
             anim.SetBool(GazeValue, true);
