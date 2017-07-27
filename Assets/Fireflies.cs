@@ -41,7 +41,12 @@ public class Fireflies : MonoBehaviour
 				//GameObject dust = Instantiate(dustParticles);
 				//dust.transform.parent = gameObject.transform;
 				print ("setting active");
+
 				dustParticles.SetActive (true);
+				foreach( var ps in dustParticles.GetComponentsInChildren<ParticleSystem>()) {
+					var emission = ps.emission;
+					emission.enabled = true;
+				}
 				StartCoroutine (flowerHit ());
 				//do something after gazing for the duration
 				/*played_particles_this_animation = true;
@@ -127,7 +132,13 @@ public class Fireflies : MonoBehaviour
 		_isCounting = false;
 		animation_playing = false;
 		_count = 0.0f;
-		dustParticles.SetActive (false);
+//		dustParticles.SetActive (false);
+
+		foreach( var ps in dustParticles.GetComponentsInChildren<ParticleSystem>()) {
+			var emission = ps.emission;
+			emission.enabled = false;
+		}
+
 		Firefliessound.Stop ();
 
 	}
