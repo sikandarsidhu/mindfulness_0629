@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 41ef1118df8c2154b84b7482a7974511
+timeCreated: 1501174021
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: column1
+    100002: column2
+    100004: column3
+    100006: column5
+    100008: column_decor
+    100010: column_decor1
+    100012: //RootNode
+    100014: floor
+    100016: floor1
+    100018: Frame_1
+    100020: Frame_1 1
+    100022: Frame_1 2
+    100024: meditation_room
+    100026: roof
+    100028: Roof gazebo
+    100030: Roof gazebo_MeshPart0
+    100032: Roof gazebo_MeshPart1
+    100034: Roof gazebo_MeshPart2
+    100036: Roof gazebo_MeshPart3
+    100038: rug
+    100040: rug2
+    100042: transform1
+    100044: transform2
+    100046: transform3
+    100048: transform4
+    100050: wall
+    100052: Wood roof
+    400000: column1
+    400002: column2
+    400004: column3
+    400006: column5
+    400008: column_decor
+    400010: column_decor1
+    400012: //RootNode
+    400014: floor
+    400016: floor1
+    400018: Frame_1
+    400020: Frame_1 1
+    400022: Frame_1 2
+    400024: meditation_room
+    400026: roof
+    400028: Roof gazebo
+    400030: Roof gazebo_MeshPart0
+    400032: Roof gazebo_MeshPart1
+    400034: Roof gazebo_MeshPart2
+    400036: Roof gazebo_MeshPart3
+    400038: rug
+    400040: rug2
+    400042: transform1
+    400044: transform2
+    400046: transform3
+    400048: transform4
+    400050: wall
+    400052: Wood roof
+    2300000: column2
+    2300002: column5
+    2300004: column_decor
+    2300006: column_decor1
+    2300008: floor
+    2300010: Frame_1
+    2300012: Frame_1 1
+    2300014: Frame_1 2
+    2300016: Roof gazebo_MeshPart0
+    2300018: Roof gazebo_MeshPart1
+    2300020: Roof gazebo_MeshPart2
+    2300022: Roof gazebo_MeshPart3
+    2300024: rug
+    2300026: rug2
+    2300028: wall
+    2300030: Wood roof
+    3300000: column2
+    3300002: column5
+    3300004: column_decor
+    3300006: column_decor1
+    3300008: floor
+    3300010: Frame_1
+    3300012: Frame_1 1
+    3300014: Frame_1 2
+    3300016: Roof gazebo_MeshPart0
+    3300018: Roof gazebo_MeshPart1
+    3300020: Roof gazebo_MeshPart2
+    3300022: Roof gazebo_MeshPart3
+    3300024: rug
+    3300026: rug2
+    3300028: wall
+    3300030: Wood roof
+    4300000: column_decor
+    4300002: column5
+    4300004: column_decor1
+    4300006: column2
+    4300008: rug
+    4300010: wall
+    4300012: floor
+    4300014: rug2
+    4300016: Roof gazebo_MeshPart0
+    4300018: Roof gazebo_MeshPart1
+    4300020: Roof gazebo_MeshPart2
+    4300022: Roof gazebo_MeshPart3
+    4300024: Wood roof
+    4300026: Frame_1
+    4300028: Frame_1
+    4300030: Frame_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
