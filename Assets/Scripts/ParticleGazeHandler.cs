@@ -12,7 +12,7 @@ public class ParticleGazeHandler : MonoBehaviour
 
     [SerializeField] VRInteractiveItem m_InteractiveItem;
 
-    [SerializeField] ParticleSystem _particle;
+    [SerializeField] ParticleSystem[] _particle;
 
     public AudioSource _sound;
 
@@ -24,7 +24,9 @@ public class ParticleGazeHandler : MonoBehaviour
     {
         anim = this.GetComponent<Animator>();
         _gazeTimer = new Timer(_duration);
-        _particle.Stop();
+		for (int i = 0; i < _particle.Length; i++) {
+			_particle[i].Stop ();
+		}
     }
 
     void Update()
@@ -34,7 +36,9 @@ public class ParticleGazeHandler : MonoBehaviour
             anim.SetBool(GazeValue, true);
             _playedAnim = true;
             _isLooking = false;
-            _particle.Stop();
+			for (int i = 0; i < _particle.Length; i++) {
+				_particle[i].Stop ();
+			}
         }
     }
 
@@ -43,7 +47,9 @@ public class ParticleGazeHandler : MonoBehaviour
         if (_isLooking)
         {
             _gazeTimer.Reset();
-            _particle.Play();
+			for (int i = 0; i < _particle.Length; i++) {
+				_particle[i].Play ();
+			}
         }
         anim.SetBool(GazeValue, false);
         _playedAnim = false;
@@ -66,12 +72,14 @@ public class ParticleGazeHandler : MonoBehaviour
     //Handle the Over event
     void HandleOver()
     {
-        _particle.gameObject.SetActive(true);
         _gazeTimer.Reset();
         _isLooking = true;
         if (!_playedAnim)
         {
-            _particle.Play();
+			for (int i = 0; i < _particle.Length; i++) {
+				_particle[i].gameObject.SetActive(true);
+				_particle[i].Play ();
+			}
         }
     }
 
@@ -80,7 +88,9 @@ public class ParticleGazeHandler : MonoBehaviour
     void HandleOut()
     {
         _isLooking = false;
-        _particle.Stop();
+		for (int i = 0; i < _particle.Length; i++) {
+			_particle[i].Stop ();
+		}
     }
 
 
