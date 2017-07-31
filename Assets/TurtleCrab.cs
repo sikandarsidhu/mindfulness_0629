@@ -10,6 +10,7 @@ public class TurtleCrab : MonoBehaviour
 	[SerializeField] private string GazeValue = "LookAtMe";
 
 	[SerializeField] private VRInteractiveItem m_InteractiveItem;
+	[SerializeField] WanderScript _wanderScript;
 
 	public SpiralParticle spiral;
 	public int frame_count = 0;
@@ -27,6 +28,7 @@ public class TurtleCrab : MonoBehaviour
 	{
 		anim = this.GetComponent<Animator>();
 		spiral = GetComponentInChildren<SpiralParticle>();
+		_wanderScript = GetComponent<WanderScript> ();
 	}
 
 	private void Update()
@@ -69,12 +71,17 @@ public class TurtleCrab : MonoBehaviour
 		}
 	}
 
+	public void BeginWalkingAgain(){
+		_wanderScript.enabled = true;
+	}
+
 	public void OnEndAnimation()
 	{
 		Debug.Log("animation has ended");
 		played_particles_this_animation = false;
 		animation_playing = false;
 		_count = 0.0f;
+
 	}
 
 	private void OnEnable()
@@ -104,6 +111,7 @@ public class TurtleCrab : MonoBehaviour
 			_isCounting = true;
 
 		}
+		_wanderScript.enabled = false;
 	}
 
 

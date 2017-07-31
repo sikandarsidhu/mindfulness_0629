@@ -169,10 +169,11 @@ function NewDecision() {
 			returningHome = true;
 		}
 		//Play walk animation
-		animal.GetComponent.<Animation>().CrossFade(walkAnimation); //play walk animation
-		animal.GetComponent.<Animation>()[walkAnimation].speed = 1; //set walk animation speed to 1
-		animal.GetComponent.<Animation>()[walkAnimation].wrapMode = WrapMode.Loop; //loop the walk animation
-		
+		if(animal.GetComponent.<Animation>()){
+			animal.GetComponent.<Animation>().CrossFade(walkAnimation); //play walk animation
+			animal.GetComponent.<Animation>()[walkAnimation].speed = 1; //set walk animation speed to 1
+			animal.GetComponent.<Animation>()[walkAnimation].wrapMode = WrapMode.Loop; //loop the walk animation
+		}
 		waitTime = Random.Range(minWalk, maxWalk); //get new waitTime
 		idle = false; //animal is now walking
 	}
