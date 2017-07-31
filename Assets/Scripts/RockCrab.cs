@@ -31,15 +31,17 @@ public class RockCrab : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("animation playing: " + animation_playing);
+        Debug.Log("iscoutning: " + _isCounting);
         if (_isCounting && !animation_playing)
         {
+            
             _count += Time.deltaTime;
 
             if (_count > _duration)
             {
                 //do something after gazing for the duration
                 played_particles_this_animation = true;
-
                 anim.SetBool(GazeValue, true);
                 animation_playing = true;
                 //sneezeSound.Play();
@@ -50,7 +52,10 @@ public class RockCrab : MonoBehaviour
 
                 if (frame_count >= 10 && !played_particles_this_animation)
                 {
-                    spiral.Emit(1);
+                    if (spiral)
+                    {
+                        spiral.Emit(1);
+                    }
                     //Debug.Log("particles: " + spiral.GetParticleCount().ToString());
                     frame_count = 0;
                 }
@@ -62,19 +67,15 @@ public class RockCrab : MonoBehaviour
 
             }
         }
-        else
-        {
-            anim.SetBool(GazeValue, false);
-            
-        }
     }
 
     public void OnEndAnimation()
     {
         Debug.Log("animation has ended");
+        _count = 0.0f;
         played_particles_this_animation = false;
         animation_playing = false;
-        _count = 0.0f;
+        _isCounting = false;
     }
 
     private void OnEnable()
@@ -102,6 +103,7 @@ public class RockCrab : MonoBehaviour
         if (!_isCounting)
         {
             _isCounting = true;
+            animation_playing = false;
 
         }
     }
@@ -112,6 +114,7 @@ public class RockCrab : MonoBehaviour
     {
         //Debug.Log("Show out state");
         _isCounting = false;
+        anim.SetBool(GazeValue, false);
         _count = 0.0f;
     }
 

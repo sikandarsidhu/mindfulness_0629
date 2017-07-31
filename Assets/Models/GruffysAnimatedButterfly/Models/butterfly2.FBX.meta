@@ -16,7 +16,7 @@ ModelImporter:
     400008: Left.Wing
     400010: Right.Wing
     4300000: Butterfly.Mesh
-    7400000: Take 001
+    7400000: Idle
     9500000: //RootNode
     11100000: //RootNode
     13700000: Butterfly.Mesh
@@ -44,7 +44,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Idle
       takeName: Take 001
       firstFrame: 0
       lastFrame: 60
@@ -121,7 +121,7 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
