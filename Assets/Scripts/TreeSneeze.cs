@@ -48,7 +48,7 @@ public class TreeSneeze : MonoBehaviour
             {
                 anim.SetBool(GazeValue, false);
 
-                if (frame_count >= 10 && !played_particles_this_animation)
+                if ( !played_particles_this_animation)
                 {
                     spiral.Emit(1);
                     //Debug.Log("particles: " + spiral.GetParticleCount().ToString());
@@ -56,7 +56,7 @@ public class TreeSneeze : MonoBehaviour
                 }
                 else
                 {
-                    frame_count += 1;
+                 //   frame_count += 1;
 
                 }
 
