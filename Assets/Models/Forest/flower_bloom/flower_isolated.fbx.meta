@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: e0b48fee499690241acf501eb3b6076d
+timeCreated: 1501606007
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blooming_flower
+    100002: blooming_petal10
+    100004: blooming_petal10 1
+    100006: blooming_petal10 2
+    100008: blooming_petal6
+    100010: blooming_petal6 1
+    100012: blooming_petal6 2
+    100014: blooming_petal7
+    100016: blooming_petal7 1
+    100018: blooming_petal7 2
+    100020: blooming_petal8
+    100022: blooming_petal8 1
+    100024: blooming_petal8 2
+    100026: blooming_petal9
+    100028: blooming_petal9 1
+    100030: blooming_petal9 2
+    100032: //RootNode
+    100034: inner_blooming
+    100036: inner_blooming1
+    100038: joint1
+    100040: joint1 1
+    100042: joint1 2
+    100044: joint10
+    100046: joint10 1
+    100048: joint10 2
+    100050: joint11
+    100052: joint11 1
+    100054: joint11 2
+    100056: joint12
+    100058: joint12 1
+    100060: joint12 2
+    100062: joint13
+    100064: joint13 1
+    100066: joint13 2
+    100068: joint14
+    100070: joint14 1
+    100072: joint14 2
+    100074: joint15
+    100076: joint15 1
+    100078: joint15 2
+    100080: joint16
+    100082: joint16 1
+    100084: joint16 2
+    100086: joint17
+    100088: joint17 1
+    100090: joint17 2
+    100092: joint18
+    100094: joint18 1
+    100096: joint18 2
+    100098: joint19
+    100100: joint19 1
+    100102: joint19 2
+    100104: joint2
+    100106: joint2 1
+    100108: joint2 2
+    100110: joint3
+    100112: joint3 1
+    100114: joint3 2
+    100116: joint4
+    100118: joint4 1
+    100120: joint4 2
+    100122: joint5
+    100124: joint5 1
+    100126: joint5 2
+    100128: joint6
+    100130: joint6 1
+    100132: joint6 2
+    100134: joint7
+    100136: joint7 1
+    100138: joint7 2
+    100140: joint8
+    100142: joint8 1
+    100144: joint8 2
+    100146: joint9
+    100148: joint9 1
+    100150: joint9 2
+    100152: outer_blooming
+    100154: pSphere4
+    100156: pSphere4 1
+    100158: pSphere4 2
+    100160: spiral_thing
+    100162: spiral_thing1
+    100164: spiral_thing2
+    100166: sticky_out_bit1
+    100168: sticky_out_bit1 1
+    100170: sticky_out_bit1 2
+    400000: blooming_flower
+    400002: blooming_petal10
+    400004: blooming_petal10 1
+    400006: blooming_petal10 2
+    400008: blooming_petal6
+    400010: blooming_petal6 1
+    400012: blooming_petal6 2
+    400014: blooming_petal7
+    400016: blooming_petal7 1
+    400018: blooming_petal7 2
+    400020: blooming_petal8
+    400022: blooming_petal8 1
+    400024: blooming_petal8 2
+    400026: blooming_petal9
+    400028: blooming_petal9 1
+    400030: blooming_petal9 2
+    400032: //RootNode
+    400034: inner_blooming
+    400036: inner_blooming1
+    400038: joint1
+    400040: joint1 1
+    400042: joint1 2
+    400044: joint10
+    400046: joint10 1
+    400048: joint10 2
+    400050: joint11
+    400052: joint11 1
+    400054: joint11 2
+    400056: joint12
+    400058: joint12 1
+    400060: joint12 2
+    400062: joint13
+    400064: joint13 1
+    400066: joint13 2
+    400068: joint14
+    400070: joint14 1
+    400072: joint14 2
+    400074: joint15
+    400076: joint15 1
+    400078: joint15 2
+    400080: joint16
+    400082: joint16 1
+    400084: joint16 2
+    400086: joint17
+    400088: joint17 1
+    400090: joint17 2
+    400092: joint18
+    400094: joint18 1
+    400096: joint18 2
+    400098: joint19
+    400100: joint19 1
+    400102: joint19 2
+    400104: joint2
+    400106: joint2 1
+    400108: joint2 2
+    400110: joint3
+    400112: joint3 1
+    400114: joint3 2
+    400116: joint4
+    400118: joint4 1
+    400120: joint4 2
+    400122: joint5
+    400124: joint5 1
+    400126: joint5 2
+    400128: joint6
+    400130: joint6 1
+    400132: joint6 2
+    400134: joint7
+    400136: joint7 1
+    400138: joint7 2
+    400140: joint8
+    400142: joint8 1
+    400144: joint8 2
+    400146: joint9
+    400148: joint9 1
+    400150: joint9 2
+    400152: outer_blooming
+    400154: pSphere4
+    400156: pSphere4 1
+    400158: pSphere4 2
+    400160: spiral_thing
+    400162: spiral_thing1
+    400164: spiral_thing2
+    400166: sticky_out_bit1
+    400168: sticky_out_bit1 1
+    400170: sticky_out_bit1 2
+    4300000: sticky_out_bit1
+    4300002: pSphere4
+    4300004: sticky_out_bit1
+    4300006: pSphere4
+    4300008: sticky_out_bit1
+    4300010: pSphere4
+    4300012: blooming_petal6
+    4300014: blooming_petal7
+    4300016: blooming_petal8
+    4300018: blooming_petal9
+    4300020: blooming_petal10
+    4300022: blooming_petal6
+    4300024: blooming_petal7
+    4300026: blooming_petal8
+    4300028: blooming_petal9
+    4300030: blooming_petal10
+    4300032: blooming_petal6
+    4300034: blooming_petal7
+    4300036: blooming_petal8
+    4300038: blooming_petal9
+    4300040: blooming_petal10
+    7400000: bloom
+    7400002: closed
+    7400004: open
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: blooming_petal10
+    13700002: blooming_petal10 1
+    13700004: blooming_petal10 2
+    13700006: blooming_petal6
+    13700008: blooming_petal6 1
+    13700010: blooming_petal6 2
+    13700012: blooming_petal7
+    13700014: blooming_petal7 1
+    13700016: blooming_petal7 2
+    13700018: blooming_petal8
+    13700020: blooming_petal8 1
+    13700022: blooming_petal8 2
+    13700024: blooming_petal9
+    13700026: blooming_petal9 1
+    13700028: blooming_petal9 2
+    13700030: pSphere4
+    13700032: pSphere4 1
+    13700034: pSphere4 2
+    13700036: sticky_out_bit1
+    13700038: sticky_out_bit1 1
+    13700040: sticky_out_bit1 2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bloom
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blooming_flower
+        weight: 1
+      - path: blooming_flower/inner_blooming
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal6
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal7
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal8
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal9
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal10
+        weight: 1
+      - path: blooming_flower/inner_blooming1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal6 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal7 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal8 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal9 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal10 1
+        weight: 1
+      - path: blooming_flower/outer_blooming
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal6 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal7 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal8 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal9 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal10 2
+        weight: 1
+      - path: spiral_thing
+        weight: 1
+      - path: spiral_thing/joint1
+        weight: 1
+      - path: spiral_thing/joint1/joint2
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: spiral_thing/sticky_out_bit1
+        weight: 1
+      - path: spiral_thing/sticky_out_bit1/pSphere4
+        weight: 1
+      - path: spiral_thing1
+        weight: 1
+      - path: spiral_thing1/joint1 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1/joint18 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1/joint18 1/joint19 1
+        weight: 1
+      - path: spiral_thing1/sticky_out_bit1 1
+        weight: 1
+      - path: spiral_thing1/sticky_out_bit1 1/pSphere4 1
+        weight: 1
+      - path: spiral_thing2
+        weight: 1
+      - path: spiral_thing2/joint1 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2/joint18 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2/joint18 2/joint19 2
+        weight: 1
+      - path: spiral_thing2/sticky_out_bit1 2
+        weight: 1
+      - path: spiral_thing2/sticky_out_bit1 2/pSphere4 2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: closed
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blooming_flower
+        weight: 1
+      - path: blooming_flower/inner_blooming
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal6
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal7
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal8
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal9
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal10
+        weight: 1
+      - path: blooming_flower/inner_blooming1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal6 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal7 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal8 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal9 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal10 1
+        weight: 1
+      - path: blooming_flower/outer_blooming
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal6 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal7 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal8 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal9 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal10 2
+        weight: 1
+      - path: spiral_thing
+        weight: 1
+      - path: spiral_thing/joint1
+        weight: 1
+      - path: spiral_thing/joint1/joint2
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: spiral_thing/sticky_out_bit1
+        weight: 1
+      - path: spiral_thing/sticky_out_bit1/pSphere4
+        weight: 1
+      - path: spiral_thing1
+        weight: 1
+      - path: spiral_thing1/joint1 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1/joint18 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1/joint18 1/joint19 1
+        weight: 1
+      - path: spiral_thing1/sticky_out_bit1 1
+        weight: 1
+      - path: spiral_thing1/sticky_out_bit1 1/pSphere4 1
+        weight: 1
+      - path: spiral_thing2
+        weight: 1
+      - path: spiral_thing2/joint1 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2/joint18 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2/joint18 2/joint19 2
+        weight: 1
+      - path: spiral_thing2/sticky_out_bit1 2
+        weight: 1
+      - path: spiral_thing2/sticky_out_bit1 2/pSphere4 2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blooming_flower
+        weight: 1
+      - path: blooming_flower/inner_blooming
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal6
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal7
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal8
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal9
+        weight: 1
+      - path: blooming_flower/inner_blooming/blooming_petal10
+        weight: 1
+      - path: blooming_flower/inner_blooming1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal6 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal7 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal8 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal9 1
+        weight: 1
+      - path: blooming_flower/inner_blooming1/blooming_petal10 1
+        weight: 1
+      - path: blooming_flower/outer_blooming
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal6 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal7 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal8 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal9 2
+        weight: 1
+      - path: blooming_flower/outer_blooming/blooming_petal10 2
+        weight: 1
+      - path: spiral_thing
+        weight: 1
+      - path: spiral_thing/joint1
+        weight: 1
+      - path: spiral_thing/joint1/joint2
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: spiral_thing/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: spiral_thing/sticky_out_bit1
+        weight: 1
+      - path: spiral_thing/sticky_out_bit1/pSphere4
+        weight: 1
+      - path: spiral_thing1
+        weight: 1
+      - path: spiral_thing1/joint1 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1/joint18 1
+        weight: 1
+      - path: spiral_thing1/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1/joint6 1/joint7
+          1/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1/joint14 1/joint15
+          1/joint16 1/joint17 1/joint18 1/joint19 1
+        weight: 1
+      - path: spiral_thing1/sticky_out_bit1 1
+        weight: 1
+      - path: spiral_thing1/sticky_out_bit1 1/pSphere4 1
+        weight: 1
+      - path: spiral_thing2
+        weight: 1
+      - path: spiral_thing2/joint1 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2/joint18 2
+        weight: 1
+      - path: spiral_thing2/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2/joint14 2/joint15
+          2/joint16 2/joint17 2/joint18 2/joint19 2
+        weight: 1
+      - path: spiral_thing2/sticky_out_bit1 2
+        weight: 1
+      - path: spiral_thing2/sticky_out_bit1 2/pSphere4 2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
