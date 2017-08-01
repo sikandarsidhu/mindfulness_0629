@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: ba005482e54ee3f449ac2d3b29b55172
+timeCreated: 1501609345
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: column1
+    100002: column2
+    100004: column3
+    100006: column5
+    100008: column_decor
+    100010: column_decor1
+    100012: floor
+    100014: floor1
+    100016: meditation_room
+    100018: //RootNode
+    100020: roof
+    100022: Roof gazebo
+    100024: Roof gazebo_MeshPart0
+    100026: Roof gazebo_MeshPart1
+    100028: Roof gazebo_MeshPart2
+    100030: Roof gazebo_MeshPart3
+    100032: room_stuff:book1
+    100034: room_stuff:book2
+    100036: room_stuff:book3
+    100038: room_stuff:book4
+    100040: room_stuff:cabinet
+    100042: room_stuff:cabinet_handle1_poly
+    100044: room_stuff:cabinet_handle2_poly
+    100046: room_stuff:cabinet_handle3_poly
+    100048: room_stuff:cabinet_handle4_poly
+    100050: room_stuff:cabinet_handle5_poly
+    100052: room_stuff:cabinet_handle_plz
+    100054: room_stuff:cabinet_nut1
+    100056: room_stuff:cabinet_nut10
+    100058: room_stuff:cabinet_nut11
+    100060: room_stuff:cabinet_nut12
+    100062: room_stuff:cabinet_nut2
+    100064: room_stuff:cabinet_nut3
+    100066: room_stuff:cabinet_nut4
+    100068: room_stuff:cabinet_nut5
+    100070: room_stuff:cabinet_nut6
+    100072: room_stuff:cabinet_nut7
+    100074: room_stuff:cabinet_nut8
+    100076: room_stuff:cabinet_nut9
+    100078: room_stuff:cushion_button
+    100080: room_stuff:cushion_button1
+    100082: room_stuff:cushion_button2
+    100084: room_stuff:cushion_pillow
+    100086: room_stuff:cushion_pillow1
+    100088: room_stuff:cushion_pillow2
+    100090: room_stuff:cushion_pillow3
+    100092: room_stuff:flower4
+    100094: room_stuff:lantern1_handle_poly
+    100096: room_stuff:lantern_body
+    100098: room_stuff:lantern_body1
+    100100: room_stuff:lantern_candle
+    100102: room_stuff:lantern_candle1
+    100104: room_stuff:lantern_handle_poly
+    100106: room_stuff:lantern_ring
+    100108: room_stuff:lantern_ring1
+    100110: room_stuff:lantern_wall
+    100112: room_stuff:lantern_wall1
+    100114: room_stuff:Mesh
+    100116: room_stuff:pCube26
+    100118: room_stuff:pCube27
+    100120: room_stuff:pCube28
+    100122: room_stuff:pCylinder1
+    100124: room_stuff:pCylinder2
+    100126: room_stuff:pCylinder3
+    100128: room_stuff:pCylinder4
+    100130: room_stuff:pCylinder5
+    100132: room_stuff:pCylinder6
+    100134: room_stuff:PrimroseP1:Mesh
+    100136: room_stuff:room_stuff
+    100138: room_stuff:tableleg1
+    100140: room_stuff:tableleg2
+    100142: room_stuff:tableleg3
+    100144: room_stuff:vase1
+    100146: room_stuff:vase2
+    100148: room_stuff:vase3
+    100150: room_stuff:vegetable201:Mesh
+    100152: room_stuff:yucca_maya8_5:Yucca
+    100154: rug
+    100156: rug2
+    100158: transform1
+    100160: wall
+    100162: Wood roof
+    400000: column1
+    400002: column2
+    400004: column3
+    400006: column5
+    400008: column_decor
+    400010: column_decor1
+    400012: floor
+    400014: floor1
+    400016: meditation_room
+    400018: //RootNode
+    400020: roof
+    400022: Roof gazebo
+    400024: Roof gazebo_MeshPart0
+    400026: Roof gazebo_MeshPart1
+    400028: Roof gazebo_MeshPart2
+    400030: Roof gazebo_MeshPart3
+    400032: room_stuff:book1
+    400034: room_stuff:book2
+    400036: room_stuff:book3
+    400038: room_stuff:book4
+    400040: room_stuff:cabinet
+    400042: room_stuff:cabinet_handle1_poly
+    400044: room_stuff:cabinet_handle2_poly
+    400046: room_stuff:cabinet_handle3_poly
+    400048: room_stuff:cabinet_handle4_poly
+    400050: room_stuff:cabinet_handle5_poly
+    400052: room_stuff:cabinet_handle_plz
+    400054: room_stuff:cabinet_nut1
+    400056: room_stuff:cabinet_nut10
+    400058: room_stuff:cabinet_nut11
+    400060: room_stuff:cabinet_nut12
+    400062: room_stuff:cabinet_nut2
+    400064: room_stuff:cabinet_nut3
+    400066: room_stuff:cabinet_nut4
+    400068: room_stuff:cabinet_nut5
+    400070: room_stuff:cabinet_nut6
+    400072: room_stuff:cabinet_nut7
+    400074: room_stuff:cabinet_nut8
+    400076: room_stuff:cabinet_nut9
+    400078: room_stuff:cushion_button
+    400080: room_stuff:cushion_button1
+    400082: room_stuff:cushion_button2
+    400084: room_stuff:cushion_pillow
+    400086: room_stuff:cushion_pillow1
+    400088: room_stuff:cushion_pillow2
+    400090: room_stuff:cushion_pillow3
+    400092: room_stuff:flower4
+    400094: room_stuff:lantern1_handle_poly
+    400096: room_stuff:lantern_body
+    400098: room_stuff:lantern_body1
+    400100: room_stuff:lantern_candle
+    400102: room_stuff:lantern_candle1
+    400104: room_stuff:lantern_handle_poly
+    400106: room_stuff:lantern_ring
+    400108: room_stuff:lantern_ring1
+    400110: room_stuff:lantern_wall
+    400112: room_stuff:lantern_wall1
+    400114: room_stuff:Mesh
+    400116: room_stuff:pCube26
+    400118: room_stuff:pCube27
+    400120: room_stuff:pCube28
+    400122: room_stuff:pCylinder1
+    400124: room_stuff:pCylinder2
+    400126: room_stuff:pCylinder3
+    400128: room_stuff:pCylinder4
+    400130: room_stuff:pCylinder5
+    400132: room_stuff:pCylinder6
+    400134: room_stuff:PrimroseP1:Mesh
+    400136: room_stuff:room_stuff
+    400138: room_stuff:tableleg1
+    400140: room_stuff:tableleg2
+    400142: room_stuff:tableleg3
+    400144: room_stuff:vase1
+    400146: room_stuff:vase2
+    400148: room_stuff:vase3
+    400150: room_stuff:vegetable201:Mesh
+    400152: room_stuff:yucca_maya8_5:Yucca
+    400154: rug
+    400156: rug2
+    400158: transform1
+    400160: wall
+    400162: Wood roof
+    2300000: column2
+    2300002: column5
+    2300004: column_decor
+    2300006: column_decor1
+    2300008: floor
+    2300010: Roof gazebo_MeshPart0
+    2300012: Roof gazebo_MeshPart1
+    2300014: Roof gazebo_MeshPart2
+    2300016: Roof gazebo_MeshPart3
+    2300018: room_stuff:book1
+    2300020: room_stuff:book2
+    2300022: room_stuff:book3
+    2300024: room_stuff:book4
+    2300026: room_stuff:cabinet
+    2300028: room_stuff:cabinet_handle1_poly
+    2300030: room_stuff:cabinet_handle2_poly
+    2300032: room_stuff:cabinet_handle3_poly
+    2300034: room_stuff:cabinet_handle4_poly
+    2300036: room_stuff:cabinet_handle5_poly
+    2300038: room_stuff:cabinet_handle_plz
+    2300040: room_stuff:cabinet_nut1
+    2300042: room_stuff:cabinet_nut10
+    2300044: room_stuff:cabinet_nut11
+    2300046: room_stuff:cabinet_nut12
+    2300048: room_stuff:cabinet_nut2
+    2300050: room_stuff:cabinet_nut3
+    2300052: room_stuff:cabinet_nut4
+    2300054: room_stuff:cabinet_nut5
+    2300056: room_stuff:cabinet_nut6
+    2300058: room_stuff:cabinet_nut7
+    2300060: room_stuff:cabinet_nut8
+    2300062: room_stuff:cabinet_nut9
+    2300064: room_stuff:cushion_button
+    2300066: room_stuff:cushion_button1
+    2300068: room_stuff:cushion_button2
+    2300070: room_stuff:cushion_pillow
+    2300072: room_stuff:cushion_pillow1
+    2300074: room_stuff:cushion_pillow2
+    2300076: room_stuff:cushion_pillow3
+    2300078: room_stuff:flower4
+    2300080: room_stuff:lantern1_handle_poly
+    2300082: room_stuff:lantern_body
+    2300084: room_stuff:lantern_body1
+    2300086: room_stuff:lantern_candle
+    2300088: room_stuff:lantern_candle1
+    2300090: room_stuff:lantern_handle_poly
+    2300092: room_stuff:lantern_ring
+    2300094: room_stuff:lantern_ring1
+    2300096: room_stuff:lantern_wall
+    2300098: room_stuff:lantern_wall1
+    2300100: room_stuff:Mesh
+    2300102: room_stuff:pCube26
+    2300104: room_stuff:pCube27
+    2300106: room_stuff:pCube28
+    2300108: room_stuff:pCylinder1
+    2300110: room_stuff:pCylinder2
+    2300112: room_stuff:pCylinder3
+    2300114: room_stuff:pCylinder4
+    2300116: room_stuff:pCylinder5
+    2300118: room_stuff:pCylinder6
+    2300120: room_stuff:PrimroseP1:Mesh
+    2300122: room_stuff:tableleg1
+    2300124: room_stuff:tableleg2
+    2300126: room_stuff:tableleg3
+    2300128: room_stuff:vase1
+    2300130: room_stuff:vase2
+    2300132: room_stuff:vase3
+    2300134: room_stuff:vegetable201:Mesh
+    2300136: room_stuff:yucca_maya8_5:Yucca
+    2300138: rug
+    2300140: rug2
+    2300142: wall
+    2300144: Wood roof
+    3300000: column2
+    3300002: column5
+    3300004: column_decor
+    3300006: column_decor1
+    3300008: floor
+    3300010: Roof gazebo_MeshPart0
+    3300012: Roof gazebo_MeshPart1
+    3300014: Roof gazebo_MeshPart2
+    3300016: Roof gazebo_MeshPart3
+    3300018: room_stuff:book1
+    3300020: room_stuff:book2
+    3300022: room_stuff:book3
+    3300024: room_stuff:book4
+    3300026: room_stuff:cabinet
+    3300028: room_stuff:cabinet_handle1_poly
+    3300030: room_stuff:cabinet_handle2_poly
+    3300032: room_stuff:cabinet_handle3_poly
+    3300034: room_stuff:cabinet_handle4_poly
+    3300036: room_stuff:cabinet_handle5_poly
+    3300038: room_stuff:cabinet_handle_plz
+    3300040: room_stuff:cabinet_nut1
+    3300042: room_stuff:cabinet_nut10
+    3300044: room_stuff:cabinet_nut11
+    3300046: room_stuff:cabinet_nut12
+    3300048: room_stuff:cabinet_nut2
+    3300050: room_stuff:cabinet_nut3
+    3300052: room_stuff:cabinet_nut4
+    3300054: room_stuff:cabinet_nut5
+    3300056: room_stuff:cabinet_nut6
+    3300058: room_stuff:cabinet_nut7
+    3300060: room_stuff:cabinet_nut8
+    3300062: room_stuff:cabinet_nut9
+    3300064: room_stuff:cushion_button
+    3300066: room_stuff:cushion_button1
+    3300068: room_stuff:cushion_button2
+    3300070: room_stuff:cushion_pillow
+    3300072: room_stuff:cushion_pillow1
+    3300074: room_stuff:cushion_pillow2
+    3300076: room_stuff:cushion_pillow3
+    3300078: room_stuff:flower4
+    3300080: room_stuff:lantern1_handle_poly
+    3300082: room_stuff:lantern_body
+    3300084: room_stuff:lantern_body1
+    3300086: room_stuff:lantern_candle
+    3300088: room_stuff:lantern_candle1
+    3300090: room_stuff:lantern_handle_poly
+    3300092: room_stuff:lantern_ring
+    3300094: room_stuff:lantern_ring1
+    3300096: room_stuff:lantern_wall
+    3300098: room_stuff:lantern_wall1
+    3300100: room_stuff:Mesh
+    3300102: room_stuff:pCube26
+    3300104: room_stuff:pCube27
+    3300106: room_stuff:pCube28
+    3300108: room_stuff:pCylinder1
+    3300110: room_stuff:pCylinder2
+    3300112: room_stuff:pCylinder3
+    3300114: room_stuff:pCylinder4
+    3300116: room_stuff:pCylinder5
+    3300118: room_stuff:pCylinder6
+    3300120: room_stuff:PrimroseP1:Mesh
+    3300122: room_stuff:tableleg1
+    3300124: room_stuff:tableleg2
+    3300126: room_stuff:tableleg3
+    3300128: room_stuff:vase1
+    3300130: room_stuff:vase2
+    3300132: room_stuff:vase3
+    3300134: room_stuff:vegetable201:Mesh
+    3300136: room_stuff:yucca_maya8_5:Yucca
+    3300138: rug
+    3300140: rug2
+    3300142: wall
+    3300144: Wood roof
+    4300000: column_decor
+    4300002: column5
+    4300004: column_decor1
+    4300006: column2
+    4300008: rug
+    4300010: wall
+    4300012: floor
+    4300014: rug2
+    4300016: Roof gazebo_MeshPart0
+    4300018: Roof gazebo_MeshPart1
+    4300020: Roof gazebo_MeshPart2
+    4300022: Roof gazebo_MeshPart3
+    4300024: Wood roof
+    4300026: room_stuff:cushion_button
+    4300028: room_stuff:cushion_pillow
+    4300030: room_stuff:cushion_button1
+    4300032: room_stuff:Mesh
+    4300034: room_stuff:vase3
+    4300036: room_stuff:cabinet
+    4300038: room_stuff:cabinet_handle2_poly
+    4300040: room_stuff:book2
+    4300042: room_stuff:book1
+    4300044: room_stuff:flower4
+    4300046: room_stuff:cabinet_nut1
+    4300048: room_stuff:cabinet_nut2
+    4300050: room_stuff:cabinet_handle1_poly
+    4300052: room_stuff:cabinet_nut3
+    4300054: room_stuff:cabinet_nut4
+    4300056: room_stuff:cabinet_handle3_poly
+    4300058: room_stuff:cabinet_handle5_poly
+    4300060: room_stuff:cabinet_nut5
+    4300062: room_stuff:cabinet_nut6
+    4300064: room_stuff:cabinet_nut7
+    4300066: room_stuff:cabinet_nut8
+    4300068: room_stuff:cabinet_nut9
+    4300070: room_stuff:cabinet_handle_plz
+    4300072: room_stuff:cabinet_nut10
+    4300074: room_stuff:cabinet_handle4_poly
+    4300076: room_stuff:cabinet_nut11
+    4300078: room_stuff:cabinet_nut12
+    4300080: room_stuff:pCylinder5
+    4300082: room_stuff:pCylinder4
+    4300084: room_stuff:pCylinder3
+    4300086: room_stuff:pCylinder6
+    4300088: room_stuff:PrimroseP1:Mesh
+    4300090: room_stuff:pCylinder2
+    4300092: room_stuff:pCylinder1
+    4300094: room_stuff:tableleg2
+    4300096: room_stuff:pCube28
+    4300098: room_stuff:pCube27
+    4300100: room_stuff:pCube26
+    4300102: room_stuff:tableleg1
+    4300104: room_stuff:tableleg3
+    4300106: room_stuff:vegetable201:Mesh
+    4300108: room_stuff:book4
+    4300110: room_stuff:book3
+    4300112: room_stuff:vase2
+    4300114: room_stuff:yucca_maya8_5:Yucca
+    4300116: room_stuff:vase1
+    4300118: room_stuff:cushion_button2
+    4300120: room_stuff:cushion_pillow2
+    4300122: room_stuff:lantern1_handle_poly
+    4300124: room_stuff:lantern_candle
+    4300126: room_stuff:lantern_ring
+    4300128: room_stuff:lantern_wall
+    4300130: room_stuff:lantern_body
+    4300132: room_stuff:lantern_handle_poly
+    4300134: room_stuff:lantern_body1
+    4300136: room_stuff:lantern_ring1
+    4300138: room_stuff:cushion_pillow1
+    4300140: room_stuff:lantern_candle1
+    4300142: room_stuff:lantern_wall1
+    4300144: room_stuff:cushion_pillow3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
