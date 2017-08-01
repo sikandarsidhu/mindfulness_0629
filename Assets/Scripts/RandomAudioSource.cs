@@ -13,7 +13,7 @@ public class RandomAudioSource : MonoBehaviour {
 	Timer _waitTimer;
 
 	void Awake () {
-		_waitTimer = new Timer(1.0f);
+		_waitTimer = new Timer(5.0f);
 		_waitTimer.Reset();
 		randomNumber = ChooseRandomNumber (randomNumber);
 	}

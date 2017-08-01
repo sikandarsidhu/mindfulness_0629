@@ -50,6 +50,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Waterfall.unity
     guid: 4233b34ab1833af4ba083438fa0625f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChooseMeditation.unity
     guid: aa0a1af381adc4942b5b888b10215364
