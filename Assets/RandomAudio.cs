@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RandomAudio : MonoBehaviour {
-    AudioSource _audioSource;
+	[SerializeField] AudioSource _audioSource;
     [SerializeField] AudioClip[] _audioClips;
     int randomNumber = 10000;
 
@@ -12,7 +12,8 @@ public class RandomAudio : MonoBehaviour {
     Timer _waitTimer;
 
     void Awake () {
-        _audioSource = GetComponent<AudioSource>();
+		if ( _audioSource == null )
+	        _audioSource = GetComponent<AudioSource>();
         _waitTimer = new Timer(1.0f);
         _waitTimer.Reset();
 	}
