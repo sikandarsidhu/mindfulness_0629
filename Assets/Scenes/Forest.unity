@@ -595,15 +595,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 462488, guid: af84330b1a0c88c4dba7e488529ef703, type: 2}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 462488, guid: af84330b1a0c88c4dba7e488529ef703, type: 2}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 462488, guid: af84330b1a0c88c4dba7e488529ef703, type: 2}
       propertyPath: m_LocalScale.z
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11406118, guid: af84330b1a0c88c4dba7e488529ef703, type: 2}
       propertyPath: maxDistance
@@ -652,6 +652,45 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af84330b1a0c88c4dba7e488529ef703, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &40419628 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
+  m_PrefabInternal: {fileID: 906235926}
+--- !u!114 &40419631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40419628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd4e72c8a6aec34ba7dfd27d18eecd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _options:
+  - {x: -178.491, y: 8.480453, z: 185.06}
+  - {x: -172.48, y: 8.480453, z: 186.75}
+  - {x: -169.92, y: 9.07, z: 177.64}
+  - {x: -181.59, y: 6.43, z: 181.01}
+  _butteryflyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  _flyDuration: 20
 --- !u!1 &43653215
 GameObject:
   m_ObjectHideFlags: 0
@@ -8168,6 +8207,10 @@ Prefab:
     - target: {fileID: 497438, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 29.345001
+      objectReference: {fileID: 0}
+    - target: {fileID: 117300, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d218001a1e147542bc5a9058259e49f, type: 2}
@@ -30672,15 +30715,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -178.49095
+      value: -181.59
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 8.4804535
+      value: 6.43
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 185.06
+      value: 181.01
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -43695,7 +43738,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 419662622
+  randomSeed: 175313560
   InitialModule:
     serializedVersion: 3
     enabled: 1
