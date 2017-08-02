@@ -24,9 +24,13 @@ public class ParticleGazeHandler : MonoBehaviour
     {
         anim = this.GetComponent<Animator>();
         _gazeTimer = new Timer(_duration);
-		for (int i = 0; i < _particle.Length; i++) {
-			_particle[i].Stop ();
-		}
+        if (_particle.Length != 0)
+        {
+            for (int i = 0; i < _particle.Length; i++)
+            {
+                _particle[i].Stop();
+            }
+        }
     }
 
     void Update()
@@ -36,9 +40,13 @@ public class ParticleGazeHandler : MonoBehaviour
             anim.SetBool(GazeValue, true);
             _playedAnim = true;
             _isLooking = false;
-			for (int i = 0; i < _particle.Length; i++) {
-				_particle[i].Stop ();
-			}
+            if (_particle.Length != 0)
+            {
+                for (int i = 0; i < _particle.Length; i++)
+                {
+                    _particle[i].Stop();
+                }
+            }
         }
     }
 
@@ -47,9 +55,13 @@ public class ParticleGazeHandler : MonoBehaviour
         if (_isLooking)
         {
             _gazeTimer.Reset();
-			for (int i = 0; i < _particle.Length; i++) {
-				_particle[i].Play ();
-			}
+            if (_particle.Length != 0)
+            {
+                for (int i = 0; i < _particle.Length; i++)
+                {
+                    _particle[i].Play();
+                }
+            }
         }
         anim.SetBool(GazeValue, false);
         _playedAnim = false;
@@ -74,7 +86,7 @@ public class ParticleGazeHandler : MonoBehaviour
     {
         _gazeTimer.Reset();
         _isLooking = true;
-        if (!_playedAnim)
+        if (!_playedAnim && _particle.Length != 0)
         {
 			for (int i = 0; i < _particle.Length; i++) {
 				_particle[i].gameObject.SetActive(true);
@@ -88,14 +100,21 @@ public class ParticleGazeHandler : MonoBehaviour
     void HandleOut()
     {
         _isLooking = false;
-		for (int i = 0; i < _particle.Length; i++) {
-			_particle[i].Stop ();
-		}
+        if (_particle.Length != 0)
+        {
+            for (int i = 0; i < _particle.Length; i++)
+            {
+                _particle[i].Stop();
+            }
+        }
     }
 
 
     public void PlaySound()
     {
-        _sound.Play();
+        if (_sound)
+        {
+            _sound.Play();
+        }
     }
 }
