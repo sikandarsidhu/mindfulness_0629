@@ -22,9 +22,9 @@ public class BringBackGazebo : MonoBehaviour
 
     public AudioSource _audioSource;
 
-    public Material _hoverInMaterial;
-    public Material _hoverOutMaterial;
-    public Renderer _Renderer;
+    public Sprite _hoverInMaterial;
+    public Sprite _hoverOutMaterial;
+	public SpriteRenderer _Renderer;
 
     private void Start()
     {
@@ -82,7 +82,8 @@ public class BringBackGazebo : MonoBehaviour
         {
             isCounting = true;
 
-            _Renderer.material = _hoverInMaterial;
+           // _Renderer.material = _hoverInMaterial;
+			_Renderer.sprite = _hoverInMaterial;
             _audioSource.Play();
         }
     }
@@ -95,7 +96,8 @@ public class BringBackGazebo : MonoBehaviour
         isCounting = false;
         count = 0.0f;
 
-        _Renderer.material = _hoverOutMaterial;
+		_Renderer.sprite = _hoverOutMaterial;
+        //_Renderer.material = _hoverOutMaterial;
     }
 
 
