@@ -9,8 +9,8 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
             xmlns:dc="http://purl.org/dc/elements/1.1/"
             xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/">
-         <xmpMM:InstanceID>xmp.iid:7627659a-bc2c-3244-acf4-fd7a12a1c733</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:7627659a-bc2c-3244-acf4-fd7a12a1c733</xmpMM:DocumentID>
+         <xmpMM:InstanceID>xmp.iid:12e5fa9a-eaba-9f4a-a354-71a61124fcbd</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:12e5fa9a-eaba-9f4a-a354-71a61124fcbd</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:0d4bc476-67e4-2c4d-bf23-0bb92e186876</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -69,6 +69,20 @@
                   <stEvt:softwareAgent>Adobe Audition CC 2017.1 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4cc7c97e-278c-e14e-b30f-a7ae1eaadae4</stEvt:instanceID>
+                  <stEvt:when>2017-08-03T16:11:16-07:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2017.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:12e5fa9a-eaba-9f4a-a354-71a61124fcbd</stEvt:instanceID>
+                  <stEvt:when>2017-08-03T16:11:16-07:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2017.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:Ingredients>
@@ -106,12 +120,12 @@
             </rdf:Bag>
          </xmpMM:Pantry>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:549004fd-a606-0441-8572-f277a81bbf8c</stRef:instanceID>
-            <stRef:documentID>xmp.did:549004fd-a606-0441-8572-f277a81bbf8c</stRef:documentID>
+            <stRef:instanceID>xmp.iid:4cc7c97e-278c-e14e-b30f-a7ae1eaadae4</stRef:instanceID>
+            <stRef:documentID>xmp.did:7627659a-bc2c-3244-acf4-fd7a12a1c733</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:0d4bc476-67e4-2c4d-bf23-0bb92e186876</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
-         <xmp:MetadataDate>2017-08-03T16:05:56-07:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2017-08-03T16:05:56-07:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2017-08-03T16:11:16-07:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2017-08-03T16:11:16-07:00</xmp:ModifyDate>
          <xmp:CreatorTool>Adobe Premiere Pro CC 2017.1 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2017-07-26T11:22:15-07:00</xmp:CreateDate>
          <xmpDM:audioSampleRate>-1</xmpDM:audioSampleRate>
