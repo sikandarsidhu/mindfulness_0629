@@ -12,6 +12,8 @@ public class Butterfly : MonoBehaviour {
 	Timer _butterflyTimer;
 	[SerializeField] float _flyDuration = 7.0f;
 
+    Quaternion _lookRotation;
+
 	void Awake(){
 		_butterflyTimer = new Timer (_flyDuration);
 		_currentIndex = _goalIndex;
@@ -38,12 +40,17 @@ public class Butterfly : MonoBehaviour {
 		}
 	}
 
-
+    // It goes to the location I think
 	void GoToLocation(int current, int goal){
 		Vector3 tempPos = Vector3.Lerp (_options[current], _options[goal], _butteryflyCurve.Evaluate(_butterflyTimer.PercentTimePassed));
 		transform.localPosition = tempPos;
 		Vector3 direction = _options [goal] - tempPos;
-		transform.LookAt (transform.TransformVector (direction));
+        Vector3 normalizedDirection = direction.normalized;
+
+        _lookRotation = Quaternion.LookRotation(direction);
+        Vector3 tempEulerRotation = _lookRotation.eulerAngles;
+        tempEulerRotation.y += 180.0f;
+        _lookRotation = Quaternion.Euler(tempEulerRotation);
+        transform.rotation = _lookRotation;
 	}
-	
 }
