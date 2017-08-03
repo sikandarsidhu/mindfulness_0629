@@ -280,7 +280,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3724167d72459d64aaa7e3017a9e21b0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 93481b89f454abe4d8cfba1e615fadbb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.02
   m_Pitch: 1
@@ -785,7 +785,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 75c7acd48c7b87843a72ca8e9be0ea40, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 81a1e0c71588b2741973ef3834a8dc32, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.03
   m_Pitch: 1
@@ -25550,67 +25550,67 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4733260132476680, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.31357804
+      value: -0.313578
       objectReference: {fileID: 0}
     - target: {fileID: 4733260132476680, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.7370742
+      value: 0.73707414
       objectReference: {fileID: 0}
     - target: {fileID: 4733260132476680, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.28932494
+      value: 0.2893249
       objectReference: {fileID: 0}
     - target: {fileID: 4733260132476680, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.52410084
+      value: -0.5241008
       objectReference: {fileID: 0}
     - target: {fileID: 4199844843187992, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.14460371
+      value: 0.1446037
       objectReference: {fileID: 0}
     - target: {fileID: 4199844843187992, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.7372318
+      value: 0.73723173
       objectReference: {fileID: 0}
     - target: {fileID: 4199844843187992, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.072205305
+      value: -0.0722053
       objectReference: {fileID: 0}
     - target: {fileID: 4199844843187992, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.65602255
+      value: -0.6560225
       objectReference: {fileID: 0}
     - target: {fileID: 4321425616097184, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.022950076
+      value: -0.022950074
       objectReference: {fileID: 0}
     - target: {fileID: 4321425616097184, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.16935809
+      value: 0.16935807
       objectReference: {fileID: 0}
     - target: {fileID: 4321425616097184, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.8810131
+      value: -0.881013
       objectReference: {fileID: 0}
     - target: {fileID: 4321425616097184, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.44114307
+      value: -0.441143
       objectReference: {fileID: 0}
     - target: {fileID: 4061266934672762, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.13969146
+      value: -0.13969144
       objectReference: {fileID: 0}
     - target: {fileID: 4061266934672762, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.8479514
+      value: 0.8479513
       objectReference: {fileID: 0}
     - target: {fileID: 4061266934672762, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.05699913
+      value: -0.05699912
       objectReference: {fileID: 0}
     - target: {fileID: 4061266934672762, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.5081495
+      value: 0.50814945
       objectReference: {fileID: 0}
     - target: {fileID: 4189294431213816, guid: 5b26c100fd189874b9291b88facb3c82, type: 2}
       propertyPath: m_LocalPosition.x
@@ -32391,7 +32391,7 @@ MonoBehaviour:
   _panoVoiceOverAudioSource: {fileID: 0}
   _buttonPressDuration: 3
   duration: 2
-  mainMenuScene: Playtest_01
+  mainMenuScene: GazeboStart
 --- !u!114 &959327300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43528,7 +43528,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: aa5cbd1a330528741916763c85f9a622, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7b7e06bbef7343341956a620a6bf21fe, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.05
   m_Pitch: 1

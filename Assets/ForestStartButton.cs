@@ -47,6 +47,7 @@ public class ForestStartButton : MonoBehaviour
         m_InteractiveItem.OnOut += HandleOut;
         m_InteractiveItem.OnClick += HandleClick;
         m_InteractiveItem.OnDoubleClick += HandleDoubleClick;
+        MSceneManager.Instance.StartLoading("Forest");
     }
 
 
