@@ -26,7 +26,7 @@ public class TreeSneeze : MonoBehaviour
     void Start()
     {
         anim = this.GetComponent<Animator>();
-        spiral = GetComponentInChildren<SpiralParticle>();
+        //spiral = GetComponentInChildren<SpiralParticle>();
     }
 
     private void Update()
@@ -48,7 +48,7 @@ public class TreeSneeze : MonoBehaviour
             {
                 anim.SetBool(GazeValue, false);
 
-                if ( !played_particles_this_animation)
+                if ( !played_particles_this_animation && spiral)
                 {
                     spiral.Emit(1);
                     //Debug.Log("particles: " + spiral.GetParticleCount().ToString());
