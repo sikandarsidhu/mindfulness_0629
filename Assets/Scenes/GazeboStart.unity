@@ -465,9 +465,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -646,9 +646,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1257,9 +1257,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1431,6 +1431,46 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 82848724614400312, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+    - target: {fileID: 82864984118865328, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+    - target: {fileID: 82823915295988406, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+    - target: {fileID: 82506204479533730, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+    - target: {fileID: 82238478485976808, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+    - target: {fileID: 82785193508590580, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+    - target: {fileID: 82462175428164322, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+    - target: {fileID: 82228981605723532, guid: e2b6db5b6182007459f01b385ec08e2e,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2b6db5b6182007459f01b385ec08e2e, type: 2}
   m_IsPrefabParent: 0
@@ -1630,9 +1670,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1867,9 +1907,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1986,9 +2026,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2394,9 +2434,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3037,9 +3077,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3651,12 +3691,12 @@ MonoBehaviour:
   _panoramaData:
   - whichPanorama: 0
     panoPosition: {x: -124, y: -26, z: 69}
-    panoRotation: {x: 0, y: 135, z: 0}
+    panoRotation: {x: 0, y: 110, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
-    videoClip: {fileID: 32900000, guid: 47274c03d2fa158498f5a54c8610bc79, type: 3}
+    videoClip: {fileID: 32900000, guid: 03a6874828719b649abc749021104421, type: 3}
     audioClip: {fileID: 8300000, guid: 95711906f7133cd4ba9312f143944ca3, type: 3}
     voiceOverClip: {fileID: 0}
-    audioSourceVolume: 0.25
+    audioSourceVolume: 0.2
   - whichPanorama: 1
     panoPosition: {x: -49, y: 0, z: 20}
     panoRotation: {x: 0, y: 112, z: 0}
@@ -3664,7 +3704,7 @@ MonoBehaviour:
     videoClip: {fileID: 32900000, guid: 42ddddd906425594c910941335b0838a, type: 3}
     audioClip: {fileID: 8300000, guid: 612502fd96fe56f4ab3ea81be1d339da, type: 3}
     voiceOverClip: {fileID: 0}
-    audioSourceVolume: 0.25
+    audioSourceVolume: 0.15
   - whichPanorama: 2
     panoPosition: {x: -53, y: 24, z: 0}
     panoRotation: {x: 0, y: 0, z: 0}
@@ -3675,12 +3715,12 @@ MonoBehaviour:
     audioSourceVolume: 0.75
   - whichPanorama: 3
     panoPosition: {x: -142, y: 2, z: 77}
-    panoRotation: {x: 0, y: 128, z: 0}
+    panoRotation: {x: 0, y: 110, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 9ea1766fc172091489a6d9274d648bdc, type: 3}
     audioClip: {fileID: 8300000, guid: 7e799c4cd18178d428b58d8ad80741a9, type: 3}
     voiceOverClip: {fileID: 0}
-    audioSourceVolume: 0.25
+    audioSourceVolume: 0.05
   - whichPanorama: 4
     panoPosition: {x: -38, y: 0, z: 35}
     panoRotation: {x: 0, y: 582, z: 0}
@@ -4239,9 +4279,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffd99127689504e449dc9a6f0ad3964a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
