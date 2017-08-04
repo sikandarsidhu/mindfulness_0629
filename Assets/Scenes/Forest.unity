@@ -20,10 +20,10 @@ RenderSettings:
   m_FogDensity: 0.0082
   m_LinearFogStart: 52.9
   m_LinearFogEnd: 489.1
-  m_AmbientSkyColor: {r: 0.48809853, g: 0.4162389, b: 0.41583544, a: 1}
+  m_AmbientSkyColor: {r: 0.7358831, g: 0.64106214, b: 0.5807215, a: 1}
   m_AmbientEquatorColor: {r: 0.37962, g: 0.41625, b: 0.44289, a: 3.33}
   m_AmbientGroundColor: {r: 0.15651, g: 0.14319, b: 0.11655, a: 3.33}
-  m_AmbientIntensity: 0.7912384
+  m_AmbientIntensity: 1.7999524
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
@@ -13793,6 +13793,11 @@ Prefab:
 --- !u!1 &469590589 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1081653598585934, guid: 46c555e7b7699c54386e0208c14226f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1608955550}
+--- !u!82 &469590590 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82155470802869148, guid: 46c555e7b7699c54386e0208c14226f1,
     type: 2}
   m_PrefabInternal: {fileID: 1608955550}
 --- !u!114 &469590593
@@ -30128,50 +30133,50 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4628138843038036, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.5228843
+      value: -0.30770162
       objectReference: {fileID: 0}
     - target: {fileID: 4628138843038036, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.41359833
+      value: 0.604859
       objectReference: {fileID: 0}
     - target: {fileID: 4628138843038036, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.32164824
+      value: 0.2729435
       objectReference: {fileID: 0}
     - target: {fileID: 4628138843038036, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.67236215
+      value: 0.68188506
       objectReference: {fileID: 0}
     - target: {fileID: 4231007215024352, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.16278984
+      value: -0.32134578
       objectReference: {fileID: 0}
     - target: {fileID: 4231007215024352, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.5244185
+      value: -0.44536924
       objectReference: {fileID: 0}
     - target: {fileID: 4231007215024352, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.10293091
+      value: -0.17514583
       objectReference: {fileID: 0}
     - target: {fileID: 4231007215024352, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.8293913
+      value: 0.8171335
       objectReference: {fileID: 0}
     - target: {fileID: 108456692405657748, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 108456692405657748, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Intensity
-      value: 1.9999999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: Azure_SunLightIntensity
-      value: 1.9999999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
@@ -30196,42 +30201,42 @@ Prefab:
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: Azure_Timeline
-      value: 6.4
+      value: 16.83
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: Azure_TimeOfDayByCurve
-      value: 7.6396585
+      value: 14.856265
       objectReference: {fileID: 0}
     - target: {fileID: 108456692405657748, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.9803948
       objectReference: {fileID: 0}
     - target: {fileID: 108456692405657748, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.78431374
+      value: 0.7928145
       objectReference: {fileID: 0}
     - target: {fileID: 108456692405657748, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.64705884
+      value: 0.66460747
       objectReference: {fileID: 0}
     - target: {fileID: 108743182221760692, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.32852077
+      value: 0.38418004
       objectReference: {fileID: 0}
     - target: {fileID: 108743182221760692, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.47642946
+      value: 0.52400595
       objectReference: {fileID: 0}
     - target: {fileID: 108743182221760692, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.6602375
+      value: 0.6970804
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
@@ -30276,12 +30281,12 @@ Prefab:
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: Azure_StarfieldIntensity
-      value: 0.52670765
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: Azure_AmbientIntensity
-      value: 0.7912384
+      value: 1.7999524
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
@@ -30316,7 +30321,7 @@ Prefab:
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: Azure_DayCycle
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
@@ -43408,6 +43413,47 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1124221961}
   m_Mesh: {fileID: 4300076, guid: 114ea0c2b95a6774394ae4fabf596ec9, type: 3}
+--- !u!1 &1134237028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1134237030}
+  - component: {fileID: 1134237029}
+  m_Layer: 0
+  m_Name: Debugkey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1134237029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1134237028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d37d150045647b9a85fffe7f70e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _voSource: {fileID: 469590590}
+--- !u!4 &1134237030
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1134237028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -194.94225, y: 0.732172, z: 225.68063}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 50
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1164669353
 Prefab:
   m_ObjectHideFlags: 0
