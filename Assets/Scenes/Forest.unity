@@ -14469,7 +14469,7 @@ MonoBehaviour:
   _particle:
   - {fileID: 784627717}
   _sound: {fileID: 523171728}
-  _duration: 4
+  _duration: 3
   _isLooking: 0
 --- !u!1 &534785772
 GameObject:
@@ -49704,7 +49704,7 @@ Prefab:
     - target: {fileID: 82155470802869148, guid: 46c555e7b7699c54386e0208c14226f1,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82155470802869148, guid: 46c555e7b7699c54386e0208c14226f1,
         type: 2}
