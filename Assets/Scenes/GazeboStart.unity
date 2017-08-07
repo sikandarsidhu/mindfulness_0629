@@ -3710,9 +3710,9 @@ MonoBehaviour:
     panoRotation: {x: 0, y: 0, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 483f3423bbb62a644850bb4536d9a539, type: 3}
-    audioClip: {fileID: 8300000, guid: d9823b9c70357e04b94d663e2368b3ea, type: 3}
+    audioClip: {fileID: 8300000, guid: a2561365430754249bc5da788539f263, type: 3}
     voiceOverClip: {fileID: 8300000, guid: 6dd407665c1efc04cb48ca42bdc2de0d, type: 3}
-    audioSourceVolume: 0.75
+    audioSourceVolume: 0.4
   - whichPanorama: 3
     panoPosition: {x: -142, y: 2, z: 77}
     panoRotation: {x: 0, y: 110, z: 0}
@@ -3722,8 +3722,8 @@ MonoBehaviour:
     voiceOverClip: {fileID: 0}
     audioSourceVolume: 0.05
   - whichPanorama: 4
-    panoPosition: {x: -38, y: 0, z: 35}
-    panoRotation: {x: 0, y: 582, z: 0}
+    panoPosition: {x: -40, y: 0, z: 37}
+    panoRotation: {x: 0, y: -138, z: 0}
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 4445387529362a047ba0d6c0aa031383, type: 3}
     audioClip: {fileID: 8300000, guid: a6d2bd8f2943efe4fb9801dfc6c6ecbd, type: 3}
