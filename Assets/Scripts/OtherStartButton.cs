@@ -31,7 +31,7 @@ public class OtherStartButton : MonoBehaviour
         alreadyActivated = false;
     }
     
-        private void Update()
+    private void Update()
     {
         if (isCounting)
         {
@@ -45,7 +45,11 @@ public class OtherStartButton : MonoBehaviour
                 buttonPanel.SetActive(false);
                 backButton.SetActive(true);
                 meditationPanel.SetActive(true);
-                otherButton.SetActive(false);
+//                otherButton.SetActive(false);
+				if ( otherButton.GetComponent<Renderer>() != null )
+					otherButton.GetComponent<Renderer>().enabled = false;
+				if ( otherButton.GetComponent<Collider>() != null )
+					otherButton.GetComponent<Collider>().enabled = false;
 
             }
         }
@@ -102,7 +106,15 @@ public class OtherStartButton : MonoBehaviour
     private void HandleClick()
     {
         //Debug.Log("Show click state");
+		Debug.Log("Click Other Start Button");
 
+		if (!isCounting)
+		{
+			isCounting = true;
+			count = 0.0f;
+			_Renderer.material = _hoverInMaterial;
+			_audioSource.Play();
+		}
     }
 
 
