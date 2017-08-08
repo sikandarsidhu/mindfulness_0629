@@ -1105,6 +1105,26 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114202349467596742, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 27be7179fc3f8874a9ce86cfe22206dd, type: 3}
+    - target: {fileID: 114784250539918756, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 27be7179fc3f8874a9ce86cfe22206dd, type: 3}
+    - target: {fileID: 114573646067752306, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 27be7179fc3f8874a9ce86cfe22206dd, type: 3}
+    - target: {fileID: 114008800509018030, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 27be7179fc3f8874a9ce86cfe22206dd, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 096fc8eb0d0bf174286766cb4b0a1dff, type: 2}
   m_IsPrefabParent: 0
@@ -1907,7 +1927,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0ff34070e18d45042a857afc5765dd64, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 827ad5d0fba54c84f83eea46397eae1f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1
@@ -3047,6 +3067,7 @@ GameObject:
   - component: {fileID: 1556859261}
   - component: {fileID: 1556859260}
   - component: {fileID: 1556859259}
+  - component: {fileID: 1556859265}
   m_Layer: 0
   m_Name: 3DForest
   m_TagString: Untagged
@@ -3238,6 +3259,37 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1556859257}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!328 &1556859265
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556859257}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 18e8d0f4358332940b1e384d8b07aaa5, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 3
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 1
+  m_TargetAudioSources:
+  - {fileID: 1556859259}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 0
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
 --- !u!1 &1610110777
 GameObject:
   m_ObjectHideFlags: 0
