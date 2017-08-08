@@ -33,14 +33,14 @@ public class MSceneManager : MonoBehaviour {
 	public void SwitchScene( string toScene , float duration ) {
 
 		DOTween.To (() => overlayEffect.intensity, (x) => overlayEffect.intensity = x , 1f, duration).OnComplete (delegate {
-            if (toScene.Equals(levelName))
-            {
-                ActivateScene();
-            }
-            else
-            {
+            //if (toScene.Equals(levelName))
+            //{
+            //    ActivateScene();
+            //}
+            //else
+            //{
                 SceneManager.LoadScene(toScene);
-            }
+            //}
 		});
 
 	}
