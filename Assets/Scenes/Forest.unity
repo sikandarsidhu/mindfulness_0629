@@ -668,9 +668,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _options:
-  - {x: -178.491, y: 8.480453, z: 185.06}
-  - {x: -172.48, y: 8.480453, z: 186.75}
-  - {x: -169.92, y: 9.07, z: 177.64}
+  - {x: -178.64, y: 8.85, z: 190.29}
+  - {x: -182.87, y: 8.48, z: 187.06}
+  - {x: -176.47, y: 9.52, z: 186.56}
   - {x: -181.59, y: 6.43, z: 181.01}
   _butteryflyCurve:
     serializedVersion: 2
@@ -30617,15 +30617,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -180.98
+      value: -176.47
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7.36
+      value: 9.52
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 189.65999
+      value: 186.56
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ad5878248fac71a48aa469475023f88a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -49486,11 +49486,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4435878977199190, guid: 617c697dd094c4144aef3989a66a7d43, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4435878977199190, guid: 617c697dd094c4144aef3989a66a7d43, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 18.9
+      value: 24.3
       objectReference: {fileID: 0}
     - target: {fileID: 4435878977199190, guid: 617c697dd094c4144aef3989a66a7d43, type: 2}
       propertyPath: m_LocalPosition.z
@@ -49565,6 +49565,26 @@ Prefab:
         type: 2}
       propertyPath: randomSeed
       value: -1938417569
+      objectReference: {fileID: 0}
+    - target: {fileID: 198832483029676314, guid: 617c697dd094c4144aef3989a66a7d43,
+        type: 2}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198832483029676314, guid: 617c697dd094c4144aef3989a66a7d43,
+        type: 2}
+      propertyPath: ShapeModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198832483029676314, guid: 617c697dd094c4144aef3989a66a7d43,
+        type: 2}
+      propertyPath: simulationSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198832483029676314, guid: 617c697dd094c4144aef3989a66a7d43,
+        type: 2}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 617c697dd094c4144aef3989a66a7d43, type: 2}
