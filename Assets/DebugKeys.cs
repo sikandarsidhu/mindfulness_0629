@@ -28,6 +28,10 @@ public class DebugKeys : MonoBehaviour {
         {
             //reload this scene
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        } else if (Input.GetKeyDown(KeyCode.D))
+        {
+            //load Deena forest
+            SceneManager.LoadScene("Forest_Deena");
         }
 	}
 }
