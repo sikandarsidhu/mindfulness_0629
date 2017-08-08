@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour {
 
-    
-
     AudioSource _audioSource;
 
     public AudioClip VO1;

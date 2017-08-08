@@ -82,7 +82,8 @@ namespace VRStandardAssets.Examples
                 _isCounting = true;
                 _count = 0.0f;
                 _Renderer.material = _hoverInMaterial;
-				_audioSource.Play();
+//				Debug.Log ("HandleOver");
+//				_audioSource.Play();
 
             }
         }
@@ -109,9 +110,10 @@ namespace VRStandardAssets.Examples
 
         //Handle the Click event
         private void HandleClick()
-        {
-            //Debug.Log("Show click state");
-			_audioSource.Play();
+		{
+//			Debug.Log ("HandleClick");
+//            Debug.Log("Show click state");
+//			_audioSource.Play();
            
         }
 

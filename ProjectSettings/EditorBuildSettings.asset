@@ -53,6 +53,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ChooseMeditation.unity
     guid: aa0a1af381adc4942b5b888b10215364
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Forest_Deena.unity
     guid: b60225899a1c6bb4b8da9fff3842f83e
