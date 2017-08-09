@@ -18,7 +18,8 @@ public class BringBackGazebo : MonoBehaviour
     public GameObject buttonPanel;
     public GameObject backButton;
     public GameObject meditationPanel;
-    public GameObject otherButton;
+//    public GameObject otherButton;
+	public OtherStartButton startButton;
 
     public AudioSource _audioSource;
 
@@ -45,7 +46,9 @@ public class BringBackGazebo : MonoBehaviour
                 buttonPanel.SetActive(true);
                 backButton.SetActive(false);
                 meditationPanel.SetActive(false);
-                otherButton.SetActive(true);
+//                otherButton.SetActive(true);
+//				if ( startButton != null )
+//					startButton.Show();
 
             }
         }

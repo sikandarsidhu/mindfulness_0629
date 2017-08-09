@@ -24,7 +24,7 @@ public class OtherStartButton : MonoBehaviour
     public GameObject buttonPanel;
     public GameObject backButton;
     public GameObject meditationPanel;
-    public GameObject otherButton;
+	public PanoramaHandler panoramaHandler;
 
     private void Start()
     {
@@ -45,12 +45,9 @@ public class OtherStartButton : MonoBehaviour
                 buttonPanel.SetActive(false);
                 backButton.SetActive(true);
                 meditationPanel.SetActive(true);
+				Hide ();
 //                otherButton.SetActive(false);
-				if ( otherButton.GetComponent<Renderer>() != null )
-					otherButton.GetComponent<Renderer>().enabled = false;
-				if ( otherButton.GetComponent<Collider>() != null )
-					otherButton.GetComponent<Collider>().enabled = false;
-
+				panoramaHandler.StartOtherVideo();
             }
         }
         else
@@ -59,6 +56,22 @@ public class OtherStartButton : MonoBehaviour
         }
     }
 
+	public void Hide()
+	{
+		if ( GetComponent<Renderer>() != null )
+			GetComponent<Renderer>().enabled = false;
+		if ( GetComponent<Collider>() != null )
+			GetComponent<Collider>().enabled = false;
+		
+	}
+
+	public void Show()
+	{
+		if ( GetComponent<Renderer>() != null )
+			GetComponent<Renderer>().enabled = true;
+		if ( GetComponent<Collider>() != null )
+			GetComponent<Collider>().enabled = true;
+	}
 
     private void OnEnable()
     {
@@ -87,7 +100,7 @@ public class OtherStartButton : MonoBehaviour
             isCounting = true;
             count = 0.0f;
             _Renderer.material = _hoverInMaterial;
-            _audioSource.Play();
+//            _audioSource.Play();
         }
     }
 
@@ -113,7 +126,7 @@ public class OtherStartButton : MonoBehaviour
 			isCounting = true;
 			count = 0.0f;
 			_Renderer.material = _hoverInMaterial;
-			_audioSource.Play();
+//			_audioSource.Play();
 		}
     }
 
