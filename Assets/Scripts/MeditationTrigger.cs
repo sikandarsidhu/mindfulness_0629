@@ -25,6 +25,7 @@ public class MeditationTrigger : MonoBehaviour {
     public Material _hoverOutMaterial;
     public Renderer _Renderer;
     public AudioSource _audioSource;
+	public PanoramaHandler panoramaHandler;
 
 
     // Use this for initialization
@@ -46,8 +47,10 @@ public class MeditationTrigger : MonoBehaviour {
 
             if (_count > _duration && !alreadyActivated)
             {
-                source.clip = clip;
-                source.Play();
+//                source.clip = clip;
+//                source.Play();
+
+				panoramaHandler.PlayVoiceOver (clip);
 
                 alreadyActivated = true;
 
@@ -83,7 +86,7 @@ public class MeditationTrigger : MonoBehaviour {
             _isCounting = true;
 
             _Renderer.material = _hoverInMaterial;
-            _audioSource.Play();
+//            _audioSource.Play();
         }
     }
 

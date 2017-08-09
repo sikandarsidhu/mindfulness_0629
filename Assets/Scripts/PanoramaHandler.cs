@@ -59,7 +59,8 @@ public class PanoramaHandler : MonoBehaviour {
     [SerializeField] PanoramaData[] _panoramaData;
 
     [SerializeField] GameObject forestStartButton;
-    [SerializeField] GameObject otherStartButton;
+//    [SerializeField] GameObject otherStartButton;
+	[SerializeField] OtherStartButton otherStartButton;
 
     public GameObject[] lights;
     private bool dimLights = false;
@@ -104,8 +105,17 @@ public class PanoramaHandler : MonoBehaviour {
 
 	}
 
-
+	public void StartOtherVideo()
+	{
+		_voiceOverPlayer.clip = _panoramaData [(int)_currentPanoramaType].voiceOverClip;
+		_voiceOverPlayer.Play ();
+	}
    
+	public void PlayVoiceOver( AudioClip clip )
+	{
+		_voiceOverPlayer.clip = clip;
+		_voiceOverPlayer.Play ();
+	}
 
     public void ChangePanorama(PanoramaType _panoramaType)
     {
@@ -123,8 +133,8 @@ public class PanoramaHandler : MonoBehaviour {
         _audioPlayer.Play();
 		_audioPlayer.loop = true;
 
-		_voiceOverPlayer.clip = _panoramaData [(int)_panoramaType].voiceOverClip;
-		_voiceOverPlayer.Play ();
+//		_voiceOverPlayer.clip = _panoramaData [(int)_panoramaType].voiceOverClip;
+//		_voiceOverPlayer.Play ();
 		_audioPlayer.volume = _panoramaData [(int)_panoramaType].audioSourceVolume;
 
         lights = GameObject.FindGameObjectsWithTag("Lights");
@@ -135,12 +145,14 @@ public class PanoramaHandler : MonoBehaviour {
         if (/*!forestStartButton.activeSelf && */(int)_panoramaType == 2)
         {
             forestStartButton.SetActive(true);
-            otherStartButton.SetActive(false);
+//			otherStartButton.gameObject.SetActive(false);
+			otherStartButton.Hide();
         }
         else
         {
             forestStartButton.SetActive(false);
-            otherStartButton.SetActive(true);
+			otherStartButton.gameObject.SetActive(true);
+			otherStartButton.Show();
         }
 
     }

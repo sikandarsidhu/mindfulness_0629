@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour {
 
-    AudioSource _audioSource;
+	AudioSource _voiceOverSource;
+	AudioSource _backgroundSource;
 
     public AudioClip VO1;
 
@@ -12,15 +13,19 @@ public class AudioManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        _audioSource = GetComponent<AudioSource>();
+        _voiceOverSource = GetComponent<AudioSource>();
 
-        _audioSource.clip = VO1;
-        _audioSource.PlayDelayed(10f);
+        _voiceOverSource.clip = VO1;
+        _voiceOverSource.PlayDelayed(10f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 
+	}
+
+	public void SetClip( AudioClip clip )
+	{
 	}
 }

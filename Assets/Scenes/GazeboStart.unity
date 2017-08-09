@@ -225,14 +225,14 @@ MonoBehaviour:
   buttonPanel: {fileID: 1548134961}
   backButton: {fileID: 1858191591}
   meditationPanel: {fileID: 855612438}
-  otherButton: {fileID: 54394926}
+  panoramaHandler: {fileID: 1766603173}
 --- !u!82 &54394928
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 54394926}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
@@ -1125,6 +1125,26 @@ Prefab:
       propertyPath: clip
       value: 
       objectReference: {fileID: 8300000, guid: 14ef7d22a38ab7242920951eeefe2d8c, type: 3}
+    - target: {fileID: 114008800509018030, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: panoramaHandler
+      value: 
+      objectReference: {fileID: 1766603173}
+    - target: {fileID: 114202349467596742, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: panoramaHandler
+      value: 
+      objectReference: {fileID: 1766603173}
+    - target: {fileID: 114573646067752306, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: panoramaHandler
+      value: 
+      objectReference: {fileID: 1766603173}
+    - target: {fileID: 114784250539918756, guid: 096fc8eb0d0bf174286766cb4b0a1dff,
+        type: 2}
+      propertyPath: panoramaHandler
+      value: 
+      objectReference: {fileID: 1766603173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 096fc8eb0d0bf174286766cb4b0a1dff, type: 2}
   m_IsPrefabParent: 0
@@ -2763,7 +2783,6 @@ GameObject:
   - component: {fileID: 1512694542}
   - component: {fileID: 1512694541}
   - component: {fileID: 1512694543}
-  - component: {fileID: 1512694544}
   m_Layer: 0
   m_Name: AUDIO MANAGER
   m_TagString: Untagged
@@ -2810,86 +2829,6 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &1512694544
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1512694540}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ccac864379b236946a40b7588288d0d6, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3756,7 +3695,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 03a6874828719b649abc749021104421, type: 3}
     audioClip: {fileID: 8300000, guid: 95711906f7133cd4ba9312f143944ca3, type: 3}
-    voiceOverClip: {fileID: 0}
+    voiceOverClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
     audioSourceVolume: 0.2
   - whichPanorama: 1
     panoPosition: {x: -49, y: 0, z: 20}
@@ -3772,7 +3711,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 483f3423bbb62a644850bb4536d9a539, type: 3}
     audioClip: {fileID: 8300000, guid: a2561365430754249bc5da788539f263, type: 3}
-    voiceOverClip: {fileID: 8300000, guid: 6dd407665c1efc04cb48ca42bdc2de0d, type: 3}
+    voiceOverClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
     audioSourceVolume: 0.4
   - whichPanorama: 3
     panoPosition: {x: -283, y: 2, z: 97}
@@ -3780,7 +3719,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 9ea1766fc172091489a6d9274d648bdc, type: 3}
     audioClip: {fileID: 8300000, guid: 7e799c4cd18178d428b58d8ad80741a9, type: 3}
-    voiceOverClip: {fileID: 0}
+    voiceOverClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
     audioSourceVolume: 0.05
   - whichPanorama: 4
     panoPosition: {x: -40, y: 0, z: 37}
@@ -3788,7 +3727,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: 4445387529362a047ba0d6c0aa031383, type: 3}
     audioClip: {fileID: 8300000, guid: a6d2bd8f2943efe4fb9801dfc6c6ecbd, type: 3}
-    voiceOverClip: {fileID: 0}
+    voiceOverClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
     audioSourceVolume: 0.5
   - whichPanorama: 5
     panoPosition: {x: -37, y: 0, z: 46}
@@ -3796,7 +3735,7 @@ MonoBehaviour:
     panoScale: {x: 1, y: 1, z: 1}
     videoClip: {fileID: 32900000, guid: c0c3b0d13429a5745bde1f0192788856, type: 3}
     audioClip: {fileID: 8300000, guid: 4b8d8bf96bbec524f9f18c74e04dda2b, type: 3}
-    voiceOverClip: {fileID: 0}
+    voiceOverClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
     audioSourceVolume: 0.5
   - whichPanorama: 6
     panoPosition: {x: -165, y: 0, z: 47}
@@ -3823,7 +3762,7 @@ MonoBehaviour:
     voiceOverClip: {fileID: 0}
     audioSourceVolume: 0
   forestStartButton: {fileID: 1656159289}
-  otherStartButton: {fileID: 54394926}
+  otherStartButton: {fileID: 54394927}
   lights: []
   fade_duration: 1
 --- !u!328 &1766603174
@@ -3907,7 +3846,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 01ae3180289909942b4266e106702ffb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ccac864379b236946a40b7588288d0d6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
@@ -4138,7 +4077,7 @@ MonoBehaviour:
   buttonPanel: {fileID: 1548134961}
   backButton: {fileID: 1858191591}
   meditationPanel: {fileID: 855612438}
-  otherButton: {fileID: 54394926}
+  startButton: {fileID: 54394927}
   _audioSource: {fileID: 1858191598}
   _hoverInMaterial: {fileID: 21300000, guid: 18ea63a857b1aff4f876202425633735, type: 3}
   _hoverOutMaterial: {fileID: 21300000, guid: 2ffa8d60aa9a8cc408b0cee1c4602d40, type: 3}
