@@ -2424,6 +2424,10 @@ Prefab:
       propertyPath: levelName
       value: Forest
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
+      propertyPath: usePositionTracking
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
   m_IsPrefabParent: 0
@@ -3720,7 +3724,7 @@ MonoBehaviour:
     videoClip: {fileID: 32900000, guid: 4445387529362a047ba0d6c0aa031383, type: 3}
     audioClip: {fileID: 8300000, guid: a6d2bd8f2943efe4fb9801dfc6c6ecbd, type: 3}
     voiceOverClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
-    audioSourceVolume: 0.5
+    audioSourceVolume: 0.2
   - whichPanorama: 5
     panoPosition: {x: -37, y: 0, z: 46}
     panoRotation: {x: 0, y: 0, z: 0}
@@ -4268,12 +4272,12 @@ AudioSource:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1928465509}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: edc7a0b07c4f101499d4af42ccfb6eac, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.25
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0

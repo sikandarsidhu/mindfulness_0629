@@ -21036,7 +21036,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e7452c05454e5244e9f3eaf3b1fc3a59, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -26328,7 +26328,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 6.76
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
       propertyPath: m_LocalPosition.z
@@ -30143,7 +30143,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4694897879438102, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 6.76
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 4694897879438102, guid: 719956f2167baeb4ba88ff88c8d8b83e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -30401,7 +30401,7 @@ Prefab:
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
       propertyPath: Azure_DayCycle
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 2}
@@ -43625,10 +43625,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 2.21
+  m_Radius: 1.59
   m_Height: 1
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.34, z: 0}
 --- !u!114 &1178398188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49755,6 +49755,11 @@ Prefab:
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82155470802869148, guid: 46c555e7b7699c54386e0208c14226f1,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46c555e7b7699c54386e0208c14226f1, type: 2}
@@ -63705,11 +63710,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ab940720a8d5cc41bc24d2f8304fb81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.14
+      value: 7.18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ab940720a8d5cc41bc24d2f8304fb81, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 190.08
+      value: 190.17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ab940720a8d5cc41bc24d2f8304fb81, type: 3}
       propertyPath: m_LocalRotation.x
