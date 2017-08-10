@@ -86,7 +86,7 @@ public class MeditationTrigger : MonoBehaviour {
             _isCounting = true;
 
             _Renderer.material = _hoverInMaterial;
-//            _audioSource.Play();
+            _audioSource.Play();
         }
     }
 

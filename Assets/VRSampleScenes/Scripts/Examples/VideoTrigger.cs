@@ -83,7 +83,7 @@ namespace VRStandardAssets.Examples
                 _count = 0.0f;
                 _Renderer.material = _hoverInMaterial;
 //				Debug.Log ("HandleOver");
-//				_audioSource.Play();
+				_audioSource.Play();
 
             }
         }
